@@ -1,0 +1,91 @@
+div {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid orange; */
+}
+
+div.land-header {
+    height: 100px;
+    justify-content: flex-end;
+}
+
+div.land-header h3 {
+    align-self: center;
+    font-size: 2em;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: uppercase;
+}
+
+div.land-title {
+    height: 300px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+div.land-title h1 {
+    /* border: 2px solid blue; */
+    color: #d63031;
+    font-family: 'Neuton', serif;
+    font-weight: 500;
+    font-size: 5em;
+    letter-spacing: 2px;
+}
+
+p.location {
+    align-self: center;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.bring-up-nav {
+    /* border: 2px solid orange; */
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.slide-right {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    z-index: 2;
+    align-self: center;
+    font-size: 40px;
+    /* padding: 10px 20px; */
+    color: white;
+    border: 1px solid white;
+    padding: 12px 24px;
+}
+
+.slide-right:hover {
+    position: absolute;
+    background-color: rgba(224,30,30,0.2);
+    height: 70px;
+    width: 70px;
+    z-index: 0;
+    align-self: center;
+    font-size: 40px;
+    /* padding: 10px 20px; */
+    color: white;
+    border: 1px solid white;
+    padding: 12px 24px;
+    transition: 1s;
+}
+
+i.fa.fa-angle-double-right {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    /* z-index: 2; */
+    align-self: center;
+    font-size: 40px;
+    /* padding: 10px 20px; */
+    color: white;
+    border: 1px solid white;
+    padding: 12px 24px;
+}
