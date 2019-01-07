@@ -1,0 +1,27 @@
+div.nav {
+    position: absolute;
+    left: 100%;
+    /* Move items into the center, horizontally with a gap between them */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d63031;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    /* transition from right, cubic bezier, animation slide left */
+}
+
+div.nav.toggle {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: #d63031;
+        height: 100%;
+        width: 100%;
+        z-index: 100;
+}
+

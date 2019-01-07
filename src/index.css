@@ -1,10 +1,5 @@
-:root {
-  --yellow: #ffc600;
-  --black: #272727;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Neuton');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 html {
   /* border-box box model allows us to add padding and border to our elements without increasing their size */
@@ -23,10 +18,10 @@ html {
 
 body {
   background: rgb(224,30,30);
-  background: linear-gradient(0deg, rgba(40,44,52,0.8) 20%, rgba(40,44,52,0.95) 40%), linear-gradient(0deg, rgba(224,30,30,0.76) 10%, rgba(224,30,30,0.1) 40%), url(./resources/collab.jpg) center;
+  background: linear-gradient(0deg, rgba(40,44,52,0.8) 20%, rgba(16,29,55,0.90) 40%), linear-gradient(0deg, rgba(246,1,1,0.76) 10%, rgba(224,30,30,0.1) 40%), url(./resources/collab.jpg) center;
   background-size: cover;
   min-height: calc(100vh - 100px);
-  margin: 50px;
+  /* margin: 50px; */
   background-attachment: fixed;
 }
 

@@ -1,0 +1,24 @@
+/* Imported CSS from: Rıza Selçuk Saydam - https://codepen.io/rss/pen/vIDKH */
+
+#nav-container{
+    align-self: flex-end;
+    /* border: 2px solid white; */
+}
+
+.toggle-icon {
+	display: block;
+	cursor: pointer;
+}
+
+.toggle-icon .bar {
+	display: block;
+	width: 3.8em;
+	height: 0.2em;
+    margin: 0.9em;
+	border-right: 2.8em solid #d63031;
+	border-left: 0.6em solid #d63031;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* End imported CSS */

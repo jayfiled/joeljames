@@ -1,4 +1,5 @@
 div {
+    border: 0px;
     display: flex;
     flex-direction: column;
     /* border: 3px solid orange; */
@@ -27,7 +28,7 @@ div.land-title {
 div.land-title h1 {
     /* border: 2px solid blue; */
     color: #d63031;
-    font-family: 'Neuton', serif;
+    font-family: 'Abril Fatface', cursive;
     font-weight: 500;
     font-size: 5em;
     letter-spacing: 2px;
@@ -39,6 +40,9 @@ p.location {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
+    padding-top: 100px;
+    height: 200px;
+    /* border: 2px solid white; */
 }
 
 .bring-up-nav {
@@ -75,6 +79,7 @@ p.location {
     border: 1px solid white;
     padding: 12px 24px;
     transition: 1s;
+    cursor: pointer;
 }
 
 i.fa.fa-angle-double-right {
