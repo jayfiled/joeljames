@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import './Menu.css'
+import '../css/Menu.css'
 
 class Menu extends Component {
     render() {
         return (
             <div id="nav-container">
-                <div class="toggle-icon">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+                <div className="toggle-icon">
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
                 </div>
             </div>
         );

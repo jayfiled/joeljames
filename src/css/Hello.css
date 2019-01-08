@@ -8,6 +8,7 @@ div {
 div.land-header {
     height: 100px;
     justify-content: flex-end;
+    /* transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1); */
 }
 
 div.land-header h3 {
@@ -17,12 +18,15 @@ div.land-header h3 {
     letter-spacing: 2px;
     color: white;
     text-transform: uppercase;
+    /* transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1); */
 }
 
 div.land-title {
     height: 300px;
     justify-content: flex-end;
     align-items: center;
+    /* animation-delay: 1s;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1); */
 }
 
 div.land-title h1 {
@@ -32,6 +36,12 @@ div.land-title h1 {
     font-weight: 500;
     font-size: 5em;
     letter-spacing: 2px;
+}
+
+button.bring-up-nav {
+    align-self: flex-end;
+    background: transparent;
+    border: none;
 }
 
 p.location {
