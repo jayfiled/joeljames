@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/joeljames/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "73f8beab9abc91385c6c",
-    "url": "/joeljames/static/css/main.7bfabe2b.chunk.css"
+    "revision": "1c1dc456ee66cf9698e1",
+    "url": "/joeljames/static/css/main.ea768d08.chunk.css"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/joeljames/static/media/collab.254efe2a.jpg"
   },
   {
-    "revision": "73f8beab9abc91385c6c",
-    "url": "/joeljames/static/js/main.73f8beab.chunk.js"
+    "revision": "1c1dc456ee66cf9698e1",
+    "url": "/joeljames/static/js/main.1c1dc456.chunk.js"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/joeljames/static/css/1.d735d217.chunk.css"
   },
   {
-    "revision": "6b7ebe2c47e0360414a3f4a4a5106874",
+    "revision": "0f4cbf8bac68114f920dbf199bfa9bd4",
     "url": "/joeljames/index.html"
   }
 ];
