@@ -11,9 +11,10 @@
 ### Component breakdown
 - [ ] **Landing page**
     - [x] **Animated arrow link to slide the next page over**
-    - [x] **Menu icon that, when clicked, slides over a menu navigation** <sup>~ In progress ~</sup>
+    - [x] **Menu icon that, when clicked, slides over a menu navigation**
 - [x] **Slide over menu nav**
-    - [ ] **Add headings as links**
+    - [x] **Remove landing page elements before nav page slides over**  <sup>~ In progress ~</sup>
+    - [ ] **Add headings as links** 
 - [ ] **Portfolio page**
     - [ ] **Cards with a picture and project information**
     - [ ] **Getting props from state**

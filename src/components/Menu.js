@@ -2,15 +2,17 @@ import React, { Component } from 'react';
 import '../css/Menu.css'
 
 class Menu extends Component {
-    render() {
+    render(props) {
         return (
-            <div id="nav-container">
-                <div className="toggle-icon">
-                    <span className="bar"></span>
-                    <span className="bar"></span>
-                    <span className="bar"></span>
+            <button id="lineButton" className="bring-up-nav" onMouseDown={this.props.handleMouseDown} >
+                <div id="nav-container">
+                    <div className="toggle-icon">
+                        <span className="bar"></span>
+                        <span className="bar"></span>
+                        <span className="bar"></span>
+                    </div>
                 </div>
-            </div>
+            </button> 
         );
     }
 }

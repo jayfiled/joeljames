@@ -38,11 +38,6 @@ div.land-title h1 {
     letter-spacing: 2px;
 }
 
-button.bring-up-nav {
-    align-self: flex-end;
-    background: transparent;
-    border: none;
-}
 
 p.location {
     align-self: center;

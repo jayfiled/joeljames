@@ -5,6 +5,11 @@ import Hello from './components/Hello';
 import * as serviceWorker from './serviceWorker';
 
 
-ReactDOM.render(<Hello/>, document.getElementById('root'));
+ReactDOM.render(
+
+    <Hello/>,
+    document.getElementById('root')
+    
+);
 
 serviceWorker.unregister();

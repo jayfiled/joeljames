@@ -1,5 +1,11 @@
 /* Imported CSS from: Rıza Selçuk Saydam - https://codepen.io/rss/pen/vIDKH */
 
+button.bring-up-nav {
+    align-self: flex-end;
+    background: transparent;
+    border: none;
+}
+
 #nav-container{
     align-self: flex-end;
     /* border: 2px solid white; */

@@ -5,15 +5,29 @@ import Menu from './Menu';
 import Nav from './Nav';
 
 class Hello extends Component {
-    state = { //state test
-        people: [
-            { name: 'Joel', age: 34},
-            { name: 'Saya', age: 5},
-            { name: 'Kenzo', age: 3}
-        ]
+    constructor(props, context) {
+        super(props, context);
+     
+        this.state = {
+          visible: false
+        };
+     
+        this.handleMouseDown = this.handleMouseDown.bind(this);
+        this.toggleMenu = this.toggleMenu.bind(this);
+      }
+
+    toggleMenu = () => {
+        this.setState({
+            visible: !this.state.visible
+        });
     }
-    slideNavFromRight = () => {
-        console.log('Was clicked', this.state.people[0].name);
+
+
+    handleMouseDown(e) {
+        this.toggleMenu();
+        console.log('menu bar clicked')
+        e.stopPropagation();
+    }
         
 /* In order to slide the nav page from the right, In Nav.js change:
 
@@ -33,34 +47,31 @@ Then set display: none on all the classes below.  Or remove the elements from th
 * [  ] have to also set an animation and transition property on the nav page * 
 
 */
-    }
-
-
-    render() {
+render() {
     return (
         <div>
-            <Nav />
-                <div>
+            
+            <div>
 
-                    <div className="land-header">
-                        <h3>Joel James</h3>
-                    </div>
-
-                    <div className="land-title">
-                        <h1>Front End Web Developer</h1>
-                    </div>
-
-                    <button className="bring-up-nav" onClick={this.slideNavFromRight} ><Menu /></button> 
-
-                    <p className="location">Melbourne</p>
-
-
-                    <div className="bring-up-nav">
-                        <span className="slide-right"></span>
-                        <i className="fa fa-angle-double-right"></i>
-                    </div>
-
+                <div className="land-header">
+                    <h3>Joel James</h3>
                 </div>
+
+                <div className="land-title">
+                    <h1>Front End Web Developer</h1>
+                </div>
+
+                <Menu handleMouseDown={this.handleMouseDown} />
+                <Nav handleMouseDown={this.handleMouseDown} menuVisibility={this.state.visible} />
+                <p className="location">Melbourne</p>
+
+
+                <div className="bring-up-nav">
+                    <span className="slide-right"></span>
+                    <i className="fa fa-angle-double-right"></i>
+                </div>
+
+            </div>
         </div>    
     );
 }
