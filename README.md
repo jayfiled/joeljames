@@ -13,9 +13,10 @@
     - [x] **Animated arrow link to slide the next page over**
     - [x] **Menu icon that, when clicked, slides over a menu navigation**
 - [x] **Slide over menu nav**
-    - [x] **Remove landing page elements before nav page slides over**  <sup>~ In progress ~</sup>
-    - [ ] **Add headings as links** 
-- [ ] **Portfolio page**
+    - [x] **Remove landing page elements before nav page slides over**
+    - [ ] **Add headings as links**   <sup>~ In progress ~</sup>
+- [ ] **Portfolio page** <sup>~ In progress ~</sup>
+    - [ ] **Positioned below the viewport - slide up into viewport**
     - [ ] **Cards with a picture and project information**
     - [ ] **Getting props from state**
     - [ ] **Search bar to filter by technology**

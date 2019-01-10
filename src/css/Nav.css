@@ -1,16 +1,15 @@
 #flyoutMenu {
     /* border: 2px solid white; */
     position: fixed;
-    /* left: 100%; */
     right: 0;
     top: 0;
-    /* left: 0; */
     display: flex;
     flex-direction: row;
-    background-color: rgba(246,1,1,0.70);
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(206,38,73,0.7) 50%, rgba(206,38,73,0.7) 50%), linear-gradient(0deg, rgba(206,38,73,0.7) 50%, rgba(206,38,73,0.7) 50%), url(../resources/nav-background.jpg) center;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
-    /* display: none; */
     color: white;
     font-family: 'Abril Fatface', cursive;
     transition: transform 1s cubic-bezier(0.63, 0.21, 1,-0.01);
@@ -18,29 +17,22 @@
 }
 
 #flyoutMenu.hide {
-    transform: translate3d(200vw, 0, 0);
+    transform: translate3d(100vw, 0, 0);
+    transition: transform 1s cubic-bezier(0.63, 0.21, 1,-0.01);
+    background-size: cover;
+    
 }
 
 #flyoutMenu.show {
     transform: translate3d(0vw, 0, 0);
     overflow: hidden;
+    background-size: cover;
 }
 
-div.nav h1 {
-    /* border: 2px solid blue; */
+#flyoutMenu h1 {
     margin: auto;
     font-size: 5em;
     letter-spacing: 6px;
 
-}
-
-div.nav.toggle {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        background-color: #d63031;
-        height: 100%;
-        width: 100%;
-        z-index: 100;
 }
 

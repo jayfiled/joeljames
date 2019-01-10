@@ -5,13 +5,13 @@ div {
     /* border: 3px solid orange; */
 }
 
-div.land-header {
+#land-header {
     height: 100px;
     justify-content: flex-end;
     /* transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1); */
 }
 
-div.land-header h3 {
+#land-header h3 {
     align-self: center;
     font-size: 2em;
     font-weight: 100;
@@ -21,7 +21,7 @@ div.land-header h3 {
     /* transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1); */
 }
 
-div.land-title {
+#land-title {
     height: 300px;
     justify-content: flex-end;
     align-items: center;
@@ -29,7 +29,7 @@ div.land-title {
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1); */
 }
 
-div.land-title h1 {
+#land-title h1 {
     /* border: 2px solid blue; */
     color: #d63031;
     font-family: 'Abril Fatface', cursive;
@@ -50,7 +50,7 @@ p.location {
     /* border: 2px solid white; */
 }
 
-.bring-up-nav {
+#bring-up-nav {
     /* border: 2px solid orange; */
     flex-direction: row;
     align-content: center;
@@ -58,7 +58,7 @@ p.location {
     height: 100px;
 }
 
-.slide-right {
+#slide-right {
     position: absolute;
     height: 70px;
     width: 70px;
@@ -71,7 +71,7 @@ p.location {
     padding: 12px 24px;
 }
 
-.slide-right:hover {
+#slide-right:hover {
     position: absolute;
     background-color: rgba(224,30,30,0.2);
     height: 70px;
