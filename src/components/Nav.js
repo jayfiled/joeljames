@@ -7,12 +7,21 @@ class Nav extends Component {
         
         if (this.props.menuVisibility)
             visibility = 'show';
+
+        let portVisibility = 'hide';
+
+        if (this.props.portVisibility)
+            portVisibility = 'show';
         
         return (
             <div id="flyoutMenu" 
                 onMouseDown={this.props.handleMouseDown}
                 className={visibility}>
-                <h1>Portfolio</h1>
+
+                <h1 
+                onMouseDown={this.props.handleMouseDownNav}
+                className={portVisibility}>
+                Portfolio</h1>
                 <h1>About</h1>
                 <h1>Contact</h1>
             </div>

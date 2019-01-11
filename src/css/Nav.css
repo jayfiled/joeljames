@@ -36,3 +36,9 @@
 
 }
 
+#flyoutMenu h1:hover {
+    color: black;
+    cursor: pointer;
+
+}
+

@@ -3,7 +3,7 @@ import '../css/Portfolio.css';
 
 class Portfolio extends Component {
     render(props) {
-        
+        // let portVisibility = 'hide';
         
         return (
             <div id="portfolio-page"

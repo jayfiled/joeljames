@@ -6,6 +6,7 @@
 - [ ] **Page for portfolio** <sup>~ Planned out ~</sup>
 - [ ] **Page for about**
 - [ ] **Page for contact**
+- [ ] **Make responsive**
 - [ ] **Blog?**
 
 ### Component breakdown
@@ -14,9 +15,9 @@
     - [x] **Menu icon that, when clicked, slides over a menu navigation**
 - [x] **Slide over menu nav**
     - [x] **Remove landing page elements before nav page slides over**
-    - [ ] **Add headings as links**   <sup>~ In progress ~</sup>
+    - [ ] **Add headings as links**   <sup>~ Portfolio done~</sup>
 - [ ] **Portfolio page** <sup>~ In progress ~</sup>
-    - [ ] **Positioned below the viewport - slide up into viewport**
+    - [ x ] **Positioned below the viewport - slide up into viewport** <sup>~ In progress ~</sup>
     - [ ] **Cards with a picture and project information**
     - [ ] **Getting props from state**
     - [ ] **Search bar to filter by technology**
