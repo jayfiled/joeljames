@@ -1,0 +1,39 @@
+#portfolio-page {
+    border: 2px solid white;
+    position: fixed;
+    left: 0;
+    /* top: 0; */
+    bottom: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(40,44,52,0.8) 20%, rgba(16,29,55,0.90) 40%), linear-gradient(0deg, rgba(76, 209, 55,0.76) 10%, rgba(76, 209, 55,0.1) 40%), url(../resources/portfol.jpg) center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    transition: transform 1s cubic-bezier(0.63, 0.21, 1,-0.01);
+    z-index: 1000;
+}
+
+#portfolio-page.hide {
+    transform: translate3d(0, 100vh, 0);
+    transition: transform 1s cubic-bezier(0.63, 0.21, 1,-0.01);
+    background-size: cover;
+    
+}
+
+#portfolio-page.show {
+    transform: translate3d(0, 0vh, 0);
+    overflow: hidden;
+    background-size: cover;
+}
+
+#portfolio-page h1 {
+    margin: auto;
+    font-size: 5em;
+    letter-spacing: 6px;
+
+}
+

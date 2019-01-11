@@ -3,13 +3,14 @@ import '../css/Hello.css'
 import 'font-awesome/css/font-awesome.min.css';
 import Menu from './Menu';
 import Nav from './Nav';
+import Portfolio from './Portfolio';
 
 class Hello extends Component {
     constructor(props, context) {
         super(props, context);
      
         this.state = {
-          visible: false
+          navVisible: false
         };
      
         this.handleMouseDown = this.handleMouseDown.bind(this);
@@ -18,7 +19,7 @@ class Hello extends Component {
 
     toggleMenu = () => {
         this.setState({
-            visible: !this.state.visible
+            navVisible: !this.state.navVisible
         });
     }
 
@@ -42,8 +43,10 @@ render() {
             </div>
 
             <Menu handleMouseDown={this.handleMouseDown} />
-            <Nav handleMouseDown={this.handleMouseDown} menuVisibility={this.state.visible} />
+            <Nav handleMouseDown={this.handleMouseDown} menuVisibility={this.state.navVisible} />
             <p className="location">Melbourne</p>
+
+            <Portfolio />
 
 
             <div id="bring-up-nav">
