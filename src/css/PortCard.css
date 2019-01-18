@@ -1,0 +1,73 @@
+:root { 
+    --background: white;
+    --card-top: rgba(9, 132, 227,1.0);
+  }
+  #card-container {
+    background: var(--background);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    position: relative;
+    background: white;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1), 0.5px 0.5px 5px 1px rgba(0,0,0,0.05);
+    width: 16em;
+    height: 24em;
+    top: 5em;
+    left: 2em;
+    transition: 0.7s;
+    display: grid;
+    grid-template-rows: repeat(2, 50%); 
+    border 
+  }
+  
+  .card-top {
+    background: var(--card-top);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: 
+      "lang lang"
+      "title title"
+      "author pic"
+  
+  }
+  
+  .card-top > * {
+    padding-left: 1em;
+    padding-right: 1em;
+  /*   border: 1px dashed black; */
+    font-weight: 700;
+  }
+  
+  .tut-lang {
+    grid-area: lang;
+    padding-top: 1em;
+  }
+  
+  .card-title {
+    grid-area: title;
+    color: #f5f6fa;
+    align-self: start;
+  }
+  
+  .tut-author: {
+    grid-area: author;
+    padding-top: 1em;
+  }
+  
+  .tut-pic {
+    grid-area: pic;
+    justify-self: end;
+  }
+  
+  .tut-pic img {
+    height: 3em;
+    border-radius: 50%;
+  }
+  
+  .card-bottom > * {
+    padding: 1em;
+  }
+  
+  
+  #card-container:hover {
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.19), 1px 1px 5px 1px rgba(0,0,0,0.12);
+  }

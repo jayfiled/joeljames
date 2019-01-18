@@ -11,7 +11,7 @@ class Hello extends Component {
      
         this.state = {
           navVisible: false,
-          portVisibile: false
+          portVisible: false
         };
      
         this.handleMouseDown = this.handleMouseDown.bind(this);
@@ -25,15 +25,15 @@ class Hello extends Component {
     toggleMenu = () => {
         this.setState({
             navVisible: !this.state.navVisible,
-            portVisibile: false
+            portVisible: false
         });
     }
 
     togglePort = () => {
         this.setState({
             navVisible: false,
-            portVisibile: !this.state.navVisible
-        })
+            portVisible: !this.state.portVisible
+        });
     }
 
 
@@ -45,7 +45,7 @@ class Hello extends Component {
 
     handleMouseDownNav(e) {
         this.togglePort();
-        console.log('portfolio clicked')
+        console.log('portfolio clicked');
         e.stopPropagation();
     }
         
@@ -63,12 +63,12 @@ render() {
 
             <Menu handleMouseDown={this.handleMouseDown} />
             <Nav handleMouseDown={this.handleMouseDown}
-                 menuVisibility={this.state.navVisible} 
-                 handleMouseDownNav={this.handleMouseDownNav} 
-                 navVisibility={this.state.portVisibile} />
+                handleMouseDownNav={this.handleMouseDownNav} 
+                menuVisibility={this.state.navVisible} />
             <p className="location">Melbourne</p>
 
-            <Portfolio handleMouseDownNav />
+            <Portfolio handleMouseDownNav  
+                 portVisibility={this.state.portVisible} />
 
 
             <div id="bring-up-nav">

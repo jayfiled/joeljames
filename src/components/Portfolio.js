@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
+import PortCard from '../components/PortCard';
 import '../css/Portfolio.css';
 
 class Portfolio extends Component {
     render(props) {
-        // let portVisibility = 'hide';
+        
+        let portVisibility = 'hide';
+
+        if (this.props.portVisibility)
+            portVisibility = 'show';
         
         return (
-            <div id="portfolio-page"
-            className="hide">
-                <h1>Hey</h1>
+            <div id="portfolio-page" 
+            className={portVisibility}>
+                <PortCard />
             </div>
         )
     }
