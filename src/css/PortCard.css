@@ -15,7 +15,7 @@
     transition: 0.7s;
     display: grid;
     grid-template-rows: repeat(2, 50%); 
-    border 
+    border: 2px solid orange; 
   }
   
   .card-top {
@@ -48,7 +48,7 @@
     align-self: start;
   }
   
-  .tut-author: {
+  .tut-author {
     grid-area: author;
     padding-top: 1em;
   }

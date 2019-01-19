@@ -6,7 +6,6 @@
     bottom: 100;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     background: linear-gradient(0deg, rgba(40,44,52,0.8) 20%, rgba(16,29,55,0.90) 40%), linear-gradient(0deg, rgba(76, 209, 55,0.76) 10%, rgba(76, 209, 55,0.1) 40%), url(../resources/portfol.jpg) center;
     background-size: cover;
     height: 100vh;

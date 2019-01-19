@@ -11,7 +11,7 @@ const PortCard = () => {
                 <div className="tut-pic"><img src="http://0.gravatar.com/avatar/fd93b9c0bdf8ccd4fa47f03ec2dbe29f?s=108&d=mm&r=g" alt="author-pic" /></div>
             </div>
             <div className="card-bottom">
-                <p> One of the first things I wanted to when I made my first website was change the default style of the hyperlinks. After all, my site was going to reference all the amazing things that I have found that helped me ..</p>
+                <p> Lorem ipsum</p>
             </div>
       </div>    
     );

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PortCard from '../components/PortCard';
 import '../css/Portfolio.css';
+import SearchBox from '../components/SearchBox';
 
 class Portfolio extends Component {
     render(props) {
@@ -13,6 +14,7 @@ class Portfolio extends Component {
         return (
             <div id="portfolio-page" 
             className={portVisibility}>
+                <SearchBox />
                 <PortCard />
             </div>
         )
