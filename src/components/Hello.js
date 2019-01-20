@@ -4,6 +4,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import Menu from './Menu';
 import Nav from './Nav';
 import Portfolio from './Portfolio';
+import cardData from '../data/cardData';
 
 class Hello extends Component {
     constructor(props, context) {
@@ -31,7 +32,7 @@ class Hello extends Component {
 
     togglePort = () => {
         this.setState({
-            navVisible: false,
+            navVisible: true,
             portVisible: !this.state.portVisible
         });
     }
@@ -67,8 +68,11 @@ render() {
                 menuVisibility={this.state.navVisible} />
             <p className="location">Melbourne</p>
 
-            <Portfolio handleMouseDownNav  
-                 portVisibility={this.state.portVisible} />
+            <Portfolio 
+                handleMouseDownNav  
+                portVisibility={this.state.portVisible} 
+                cardData={cardData} 
+                />
 
 
             <div id="bring-up-nav">

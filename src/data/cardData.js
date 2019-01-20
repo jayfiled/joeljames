@@ -9,7 +9,7 @@ const cardData = [
             '#CSS Grid'
         ],
         name: 'Personal Portfolio',
-        picPath: 'portfolio.png'
+        picPath: 'portfolio'
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const cardData = [
             '#CSS Flexbox'
         ],
         name: 'React Cats',
-        picPath: 'fancyCats.png'
+        picPath: 'fancyCats'
     },
     {
         id: 3,
@@ -33,7 +33,7 @@ const cardData = [
             '#CSS Grid'
         ],
         name: 'Japanese Hiragana Flash Card App',
-        picPath: 'hiraganaflash.png'
+        picPath: 'hiraganaflash'
     },
     {
         id: 4,
@@ -43,7 +43,7 @@ const cardData = [
             '#CSS'
         ],
         name: 'Javascript Cheat Sheet',
-        picPath: 'JSCheatSheet.png'
+        picPath: 'JSCheatSheet'
     },
     {
         id: 5,
@@ -55,7 +55,7 @@ const cardData = [
             '#CSS'
         ],
         name: 'Personal blog site',
-        picPath: 'blog.png'
+        picPath: 'blog'
     },
     {
         id: 6,
@@ -65,7 +65,7 @@ const cardData = [
             '#CSS Grid'
         ],
         name: 'Mobile phone product landing page',
-        picPath: 'product.png'
+        picPath: 'product'
     },
     {
         id: 7,
@@ -74,32 +74,20 @@ const cardData = [
             '#CSS Flexbox'
         ],
         name: 'Watch product landing page',
-        picPath: 'productlaunch.png'
+        picPath: 'productlaunch'
     },
     {
         id: 8,
         lang: [
-            'DOM manip'
+            'DOM manip',
             '#JavaScript',
             '#HTML',
             '#CSS'
         ],
         name: 'DOM \'to-do\' shopping list',
-        picPath: 'shoppinglist.png'
+        picPath: 'shoppinglist'
     }
 
 ];
 
-{/* <div id="card-container">
-<div className="card-top">
-    <div className="tut-lang"><sup>#ReactJS #Javascript #HTML #CSS Flexbox #CSS Grid</sup></div>
-    <div className="card-title">Joel James - Personal Portfolio</div>
-    <div className="card-ref">
-        <a href="#" title="Click to view source"><i className="fa fa-github"></i></a> 
-        <a href="#" title="Click to vew site"><i className="fa fa-desktop"></i></a>
-    </div>
-</div>
-<div className="card-bottom">
-    <img src={require('../resources/portPics/portfolio.png')} alt="portfolio-site-snapshot"/>
-</div>
-</div>   */}
+export default cardData;
