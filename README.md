@@ -20,10 +20,11 @@
          - [ ] **About**
          - [ ] **Contact** 
 - [ ] **Portfolio page** <sup>~ In progress ~</sup>
-    - [ x ] **Positioned below the viewport - slide up into viewport**
+    - [x] **Positioned below the viewport - slide up into viewport**
     - [x] **Cards with a picture and project information**
-    - [x] **Add .js file with an object full of data** 
-    - [ ] **Getting props from state** <sup>~ In progress ~</sup>
-    - [ ] **Search bar to filter by technology**
+    - [x] **Add .js file with an array full of data** 
+    - [x] **Getting props from state** 
+    - [ ] **Search bar to filter by technology** <sup>~ In progress ~</sup>
     - [x] **Social icon for link to GitHub & website**
+    - [ ] **Add social links to card Data array**
 
