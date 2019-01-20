@@ -1,17 +1,21 @@
 import React from 'react';
 import '../css/PortCard.css';
+import 'font-awesome/css/font-awesome.min.css';
+
 
 const PortCard = () => {
     return (
         <div id="card-container">
             <div className="card-top">
-                <div className="tut-lang">CSS</div>
-                <div className="card-title">HOW TO CHANGE THE DEFAULT HYPERLINK STYLE</div>
-                <div className="tut-author">Joel </div>
-                <div className="tut-pic"><img src="http://0.gravatar.com/avatar/fd93b9c0bdf8ccd4fa47f03ec2dbe29f?s=108&d=mm&r=g" alt="author-pic" /></div>
+                <div className="tut-lang"><sup>#ReactJS #Javascript #HTML #CSS Flexbox #CSS Grid</sup></div>
+                <div className="card-title">Joel James - Personal Portfolio</div>
+                <div className="card-ref">
+                    <a href="#" title="Click to view source"><i className="fa fa-github"></i></a> 
+                    <a href="#" title="Click to vew site"><i className="fa fa-desktop"></i></a>
+                </div>
             </div>
             <div className="card-bottom">
-                <p> Lorem ipsum</p>
+                <img src={require('../resources/portPics/portfolio.png')} alt="portfolio-site-snapshot"/>
             </div>
       </div>    
     );

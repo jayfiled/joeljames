@@ -1,8 +1,12 @@
 .search-wrap {
-    border: 2px solid white;
+    display: flex;
+    border-top: 1em solid transparent;
 }
 
 input {
     border: none;
+    height: 2em;
+    padding: 2em;
+    margin: auto;
 
 }

@@ -1,6 +1,6 @@
 :root { 
     --background: white;
-    --card-top: rgba(9, 132, 227,1.0);
+    --card-top: rgba(68, 189, 50,1.0);
   }
   #card-container {
     background: var(--background);
@@ -8,14 +8,14 @@
     position: relative;
     background: white;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1), 0.5px 0.5px 5px 1px rgba(0,0,0,0.05);
-    width: 16em;
-    height: 24em;
+    width: 17em;
+    height: 25em;
     top: 5em;
     left: 2em;
     transition: 0.7s;
     display: grid;
     grid-template-rows: repeat(2, 50%); 
-    border: 2px solid orange; 
+    /* border: 2px solid orange;  */
   }
   
   .card-top {
@@ -26,7 +26,7 @@
     grid-template-areas: 
       "lang lang"
       "title title"
-      "author pic"
+      "author author"
   
   }
   
@@ -43,31 +43,44 @@
   }
   
   .card-title {
+    font-size: 1.1em;
+    /* color: orange; */
     grid-area: title;
-    color: #f5f6fa;
+    color: rgba(25, 42, 86,1.0);
     align-self: start;
-  }
-  
-  .tut-author {
-    grid-area: author;
     padding-top: 1em;
   }
   
-  .tut-pic {
-    grid-area: pic;
-    justify-self: end;
+  .card-ref {
+    grid-area: author;
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .site {
+      align-self: flex-start;
+      border: 2px solid blue;
+  }
+
+  .source {
+    border: 2px solid blue;
   }
   
-  .tut-pic img {
-    height: 3em;
-    border-radius: 50%;
+  .card-bottom img {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
   }
-  
-  .card-bottom > * {
-    padding: 1em;
-  }
-  
   
   #card-container:hover {
+      transform: scale(1.1);
       box-shadow: 5px 5px 5px rgba(0,0,0,0.19), 1px 1px 5px 1px rgba(0,0,0,0.12);
+  }
+
+  .fa {
+      font-size: 3em;
+      color: rgba(47, 54, 64,1.0);
   }
