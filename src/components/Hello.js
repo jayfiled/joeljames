@@ -12,7 +12,8 @@ class Hello extends Component {
      
         this.state = {
           navVisible: false,
-          portVisible: false
+          portVisible: false,
+          searchField: ''
         };
      
         this.handleMouseDown = this.handleMouseDown.bind(this);
@@ -49,8 +50,19 @@ class Hello extends Component {
         console.log('portfolio clicked');
         e.stopPropagation();
     }
+
+    onSearchChange = (e) => {
+        this.setState({ searchField: e.target.value })
+    }
         
 render() {
+
+    const { searchField } = this.state;
+
+    const filteredCards = cardData.filter(portCard => {
+        return portCard.name.toLowerCase().includes(searchField.toLowerCase());
+    })
+
     return (
             <div>
 
@@ -71,7 +83,7 @@ render() {
             <Portfolio 
                 handleMouseDownNav  
                 portVisibility={this.state.portVisible} 
-                cardData={cardData} 
+                cardData={filteredCards} 
                 />
 
 

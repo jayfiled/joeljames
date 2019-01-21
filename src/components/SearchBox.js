@@ -1,13 +1,13 @@
 import React from 'react';
 import '../css/SearchBox.css';
 
-const SearchBox = () => {
+const SearchBox = ({ searchChange }) => {
     return (
         <div className="search-wrap">
             <input 
                 type="search" 
                 placeholder="search skill"
-                // onChange{filterResults} 
+                onChange={searchChange}
             />
         </div>
     );

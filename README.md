@@ -28,3 +28,12 @@
     - [x] **Social icon for link to GitHub & website**
     - [ ] **Add social links to card Data array**
 
+### Other to-dos
+- [ ] ** General**
+    - [ ] **Make responsive**
+    - [ ] **Change the color of the portfolio cards**
+    - [ ] **Change the thumbnails on the card to something that isn't a terribly scaled image**
+    - [ ] **Make the thumbnails work together aesthetically**
+    - [ ] **Remove Desktop Icon from the portfolio cards and make the cards a link to the website instead**
+    - [ ] **Make the homepage elements fade in when page loads**
+    - [ ] **Make an impactful subtitle for each card, i.e. "I solved xx problem.. "**

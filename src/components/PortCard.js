@@ -5,7 +5,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 const PortCard = ({ id, lang, name, picPath }) => {
 
-console.log(id, lang, name, picPath);
+// console.log(id, lang, name, picPath);
 
     return (
         <div id="card-container">
