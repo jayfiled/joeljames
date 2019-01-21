@@ -24,9 +24,10 @@
     - [x] **Cards with a picture and project information**
     - [x] **Add .js file with an array full of data** 
     - [x] **Getting props from state** 
-    - [ ] **Search bar to filter by technology** <sup>~ In progress ~</sup>
+    - [x] **Search bar to filter by technology**
     - [x] **Social icon for link to GitHub & website**
     - [ ] **Add social links to card Data array**
+    - [x] **Add scroll to portfolio page**
 
 ### Other to-dos
 - [ ] ** General**
@@ -37,3 +38,5 @@
     - [ ] **Remove Desktop Icon from the portfolio cards and make the cards a link to the website instead**
     - [ ] **Make the homepage elements fade in when page loads**
     - [ ] **Make an impactful subtitle for each card, i.e. "I solved xx problem.. "**
+- [] **Bugs**
+    - [] **Search card by technology, not by name**

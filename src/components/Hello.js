@@ -84,6 +84,7 @@ render() {
                 handleMouseDownNav  
                 portVisibility={this.state.portVisible} 
                 cardData={filteredCards} 
+                searchChange={this.onSearchChange}
                 />
 
 
