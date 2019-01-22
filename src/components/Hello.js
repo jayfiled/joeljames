@@ -60,7 +60,7 @@ render() {
     const { searchField } = this.state;
 
     const filteredCards = cardData.filter(portCard => {
-        return portCard.name.toLowerCase().includes(searchField.toLowerCase());
+        return portCard.lang.join(' ').toLowerCase().includes(searchField.toLowerCase());
     })
 
     return (

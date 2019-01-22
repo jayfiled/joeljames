@@ -6,7 +6,7 @@ const SearchBox = ({ searchChange }) => {
         <div className="search-wrap">
             <input 
                 type="search" 
-                placeholder="search skill"
+                placeholder="start typing a language"
                 onChange={searchChange}
             />
         </div>

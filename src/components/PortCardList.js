@@ -10,11 +10,13 @@ const PortCardList = ({cardData}) => {
     key={element.id} 
     lang={element.lang.join(' ')} 
     name={element.name} 
+    url={element.url} 
+    source={element.source} 
     picPath={element.picPath} 
     />
     
     );
-    console.log(portCardArray);
+    // console.log(portCardArray);
 
     return portCardArray
 
