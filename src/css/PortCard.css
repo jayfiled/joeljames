@@ -1,6 +1,6 @@
 :root { 
     --background: white;
-    --card-top: rgba(68, 189, 50,1.0);
+    --card-top: rgba(85, 239, 196,1.0);
   }
   #card-container {
     background: var(--background);
@@ -40,13 +40,14 @@
   .tut-lang {
     grid-area: lang;
     padding-top: 1em;
+    color: rgba(45, 52, 54,1.0);
   }
   
   .card-title {
     font-size: 1.1em;
     /* color: orange; */
     grid-area: title;
-    color: rgba(25, 42, 86,1.0);
+    color: rgba(45, 52, 54,1.0);
     align-self: start;
     padding-top: 1em;
   }

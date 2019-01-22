@@ -19,24 +19,29 @@
          - [x] **Portfolio**
          - [ ] **About**
          - [ ] **Contact** 
-- [ ] **Portfolio page** <sup>~ In progress ~</sup>
+- [ ] **Portfolio page** 
     - [x] **Positioned below the viewport - slide up into viewport**
     - [x] **Cards with a picture and project information**
     - [x] **Add .js file with an array full of data** 
     - [x] **Getting props from state** 
     - [x] **Search bar to filter by technology**
     - [x] **Social icon for link to GitHub & website**
-    - [ ] **Add social links to card Data array**
+    - [x] **Add social links to card Data array**
     - [x] **Add scroll to portfolio page**
 
 ### Other to-dos
 - [ ] ** General**
     - [ ] **Make responsive**
-    - [ ] **Change the color of the portfolio cards**
+    - [ ] **Change the color of the portfolio cards** <sup>~ In progress ~</sup>
     - [ ] **Change the thumbnails on the card to something that isn't a terribly scaled image**
     - [ ] **Make the thumbnails work together aesthetically**
     - [ ] **Remove Desktop Icon from the portfolio cards and make the cards a link to the website instead**
     - [ ] **Make the homepage elements fade in when page loads**
+
+      - [How to - component](https://gist.github.com/JoeTheDave/5d78f9aae295b2f19c8c3f96c0d0ec75/raw/2d0d946cceb0ca32137d42ead09a9d227a2df9d0/react-css-transition.js)
+
+      - [How to - CSS](https://gist.github.com/JoeTheDave/876881f0e16d2809f9bbf78b22212527/raw/d8544537af32ba36bbb39d6371c784dc5a6b42b8/react-css-transition.css)
+
     - [ ] **Make an impactful subtitle for each card, i.e. "I solved xx problem.. "**
 - [] **Bugs**
-    - [] **Search card by technology, not by name**
+    - [x] **Search card by technology, not by name**

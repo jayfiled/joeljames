@@ -21,7 +21,7 @@
 
 #portfolio-page.hide {
     /* Comment the below line out to work on portfolio page */
-    /* transform: translate3d(0, 100vh, 0); */
+    transform: translate3d(0, 100vh, 0);
     transition: transform 1s cubic-bezier(0.63, 0.21, 1,-0.01);
     background-size: cover;
     

@@ -16,6 +16,7 @@ html {
   box-sizing: inherit;
 }
 
+
 body {
   background: linear-gradient(0deg, rgba(40,44,52,0.8) 20%, rgba(16,29,55,0.90) 40%), linear-gradient(0deg, rgba(246,1,1,0.76) 10%, rgba(224,30,30,0.1) 40%), url(../resources/collab.jpg) center;
   background-size: cover;
