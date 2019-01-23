@@ -16,20 +16,6 @@ const cardData = [
     {
         id: 2,
         lang: [
-            '#ReactJS',
-            '#JavaScript',
-            '#tachyons',
-            '#HTML',
-            '#CSS Flexbox'
-        ],
-        name: 'React Cats',
-        url: 'https://jayfiled.github.io/fancyCats/',
-        source: 'https://github.com/jayfiled/fancyCats/tree/master',
-        picPath: 'fancyCats'
-    },
-    {
-        id: 3,
-        lang: [
             '#DOM manip',
             '#JavaScript',
             '#HTML',
@@ -40,6 +26,21 @@ const cardData = [
         url: 'https://github.com/jayfiled/HiraganaFlash',
         source: 'https://github.com/jayfiled/HiraganaFlash',
         picPath: 'hiraganaflash'
+    },
+    {
+        id: 3,
+        lang: [
+            '#ReactJS',
+            '#JavaScript',
+            '#tachyons',
+            '#HTML',
+            '#CSS Flexbox',
+            '#JS promises'
+        ],
+        name: 'React Cats',
+        url: 'https://jayfiled.github.io/fancyCats/',
+        source: 'https://github.com/jayfiled/fancyCats/tree/master',
+        picPath: 'fancyCats'
     },
     {
         id: 4,
@@ -76,8 +77,21 @@ const cardData = [
         ],
         name: 'Mobile phone product landing page',
         url: 'https://jayfiled.github.io/product-landing-page/',
-        source: '',
+        source: 'https://jayfiled.github.io/product-landing-page/',
         picPath: 'product'
+    },
+    {
+        id: 8,
+        lang: [
+            '#DOM manip',
+            '#JavaScript',
+            '#HTML',
+            '#CSS'
+        ],
+        name: 'DOM \'to-do\' shopping list',
+        url: 'https://jayfiled.github.io/ZeroToMasteryProjects/projects/shoppingList/index.html',
+        source: 'https://github.com/jayfiled/ZeroToMasteryProjects/blob/master/projects/shoppingList',
+        picPath: 'shoppinglist'
     },
     {
         id: 7,
@@ -89,21 +103,7 @@ const cardData = [
         url: 'https://jayfiled.github.io/ZeroToMasteryProjects/projects/productLanding/index.html',
         source: 'https://github.com/jayfiled/ZeroToMasteryProjects/tree/master/projects/productLanding',
         picPath: 'productlaunch'
-    },
-    {
-        id: 8,
-        lang: [
-            'DOM manip',
-            '#JavaScript',
-            '#HTML',
-            '#CSS'
-        ],
-        name: 'DOM \'to-do\' shopping list',
-        url: 'https://jayfiled.github.io/ZeroToMasteryProjects/projects/shoppingList/index.html',
-        source: 'https://github.com/jayfiled/ZeroToMasteryProjects/blob/master/projects/shoppingList/readme.md',
-        picPath: 'shoppinglist'
     }
-
 ];
 
 export default cardData;

@@ -32,10 +32,10 @@
 ### Other to-dos
 - [ ] ** General**
     - [ ] **Make responsive**
-    - [ ] **Change the color of the portfolio cards** <sup>~ In progress ~</sup>
-    - [ ] **Change the thumbnails on the card to something that isn't a terribly scaled image**
-    - [ ] **Make the thumbnails work together aesthetically**
-    - [ ] **Remove Desktop Icon from the portfolio cards and make the cards a link to the website instead**
+    - [x] **Change the color of the portfolio cards**
+    - [x] **Change the thumbnails on the card to something that isn't a terribly scaled image**
+    - [x] **Make the thumbnails work together aesthetically**
+    - [ ] **Remove Desktop Icon from the portfolio cards and make the cards a link to the website instead**  <sup>~ In progress ~</sup>
     - [ ] **Make the homepage elements fade in when page loads**
 
       - [How to - component](https://gist.github.com/JoeTheDave/5d78f9aae295b2f19c8c3f96c0d0ec75/raw/2d0d946cceb0ca32137d42ead09a9d227a2df9d0/react-css-transition.js)

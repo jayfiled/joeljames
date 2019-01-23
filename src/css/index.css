@@ -7,7 +7,7 @@ html {
   /* A system font stack so things load nice and quick! */
   font-family: 'Open Sans', Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   /* color: white; */
-  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+  /* text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07); */
 }
 
 *,

@@ -44,7 +44,7 @@
   }
   
   .card-title {
-    font-size: 1.1em;
+    font-size: 1.20em;
     /* color: orange; */
     grid-area: title;
     color: rgba(45, 52, 54,1.0);
@@ -75,7 +75,7 @@
     height: 100%;
     /* overflow: hidden; */
   }
-  
+
   #card-container:hover {
       transform: scale(1.01);
       box-shadow: 5px 5px 5px rgba(0,0,0,0.19), 1px 1px 5px 1px rgba(0,0,0,0.12);
