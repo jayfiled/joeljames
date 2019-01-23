@@ -18,7 +18,7 @@ console.log(url);
                 </div>
             </div>
             <div className="card-bottom">
-                <img src={require(`../resources/portPics/${picPath}.png`)} alt="portfolio-site-snapshot"/>
+                <a href={`${url}`} ><img src={require(`../resources/portPics/${picPath}.png`)} alt="portfolio-site-snapshot"/></a>
             </div>
       </div>    
     );
