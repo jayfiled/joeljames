@@ -44,4 +44,4 @@
 
     - [ ] **Make an impactful subtitle for each card, i.e. "I solved xx problem.. "**
 - [] **Bugs**
-    - [x] **Search card by technology, not by name**
+    - [x] **Search card by lang/technology, not by name**

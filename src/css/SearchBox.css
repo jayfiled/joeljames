@@ -1,9 +1,11 @@
+
 .search-wrap {
-    min-width: 100%;
-    height: 8em;
-    /* border: 5px solid salmon; */
+    min-width: 60%;
+    /* height: 8em; */
+    border: 5px solid salmon;
     border-top: 1em solid transparent;
 }
+
 
 input {
     border: none;

@@ -6,6 +6,7 @@
     bottom: 100;
     display: flex;
     flex-flow: row wrap;
+    flex-direction: row;
     justify-content: space-evenly;
     /* align-content: flex-start; */
     background: linear-gradient(0deg, rgba(40,44,52,0.8) 20%, rgba(16,29,55,0.90) 40%), linear-gradient(0deg, rgba(76, 209, 55,0.76) 10%, rgba(76, 209, 55,0.1) 40%), url(../resources/portfol.jpg) center;
@@ -19,9 +20,18 @@
     z-index: 4;
 }
 
+.back-and-search {
+    border: 1px solid cadetblue;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
 #portfolio-page.hide {
     /* Comment the below line out to work on portfolio page */
-    transform: translate3d(0, 100vh, 0);
+    /* transform: translate3d(0, 100vh, 0); */
     transition: transform 1s cubic-bezier(0.63, 0.21, 1,-0.01);
     background-size: cover;
     
