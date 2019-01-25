@@ -3,21 +3,21 @@
 ### Project To-do
 - [x] [**Build landing page**](https://jayfiled.github.io/joeljames/)
 - [x] **Slide over menu nav** 
-- [x] **Page for portfolio**  <sup>~ In progress ~</sup>
-- [ ] **Page for about**
+- [x] **Page for portfolio**
+- [ ] **Page for about**   <sup>~ In progress ~</sup>
 - [ ] **Page for contact**
-- [ ] **Make responsive**
+- [x] **Make responsive**
 - [ ] **Blog?**
 
 ### Component breakdown
-- [ ] **Landing page**
+- [x] **Landing page**
     - [x] **Animated arrow link to slide the next page over**
     - [x] **Menu icon that, when clicked, slides over a menu navigation**
 - [x] **Slide over menu nav**
     - [x] **Remove landing page elements before nav page slides over**
     - [ ] **Add headings as links**
          - [x] **Portfolio**
-         - [ ] **About**
+         - [ ] **About**  <sup>~ In progress ~</sup>
          - [ ] **Contact** 
 - [ ] **Portfolio page** 
     - [x] **Positioned below the viewport - slide up into viewport**
@@ -28,10 +28,11 @@
     - [x] **Social icon for link to GitHub & website**
     - [x] **Add social links to card Data array**
     - [x] **Add scroll to portfolio page**
+    - [ ] **Make search sticky**
 
 ### Other to-dos
-- [ ] ** General**   <sup>~ In progress ~</sup>
-    - [ ] **Make responsive**
+- [ ] **General**
+    - [x] **Make responsive** 
     - [x] **Change the color of the portfolio cards**
     - [x] **Change the thumbnails on the card to something that isn't a terribly scaled image**
     - [x] **Make the thumbnails work together aesthetically**

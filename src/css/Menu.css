@@ -1,5 +1,12 @@
 /* Imported CSS from: Rıza Selçuk Saydam - https://codepen.io/rss/pen/vIDKH */
 
+#lineButton {
+	align-self: flex-end;
+	justify-self: flex-end;
+	max-width: 20%;
+	/* border: 2px solid orange; */
+}
+
 button.bring-up-nav {
     align-self: flex-end;
     background: transparent;
@@ -7,7 +14,9 @@ button.bring-up-nav {
 }
 
 #nav-container{
-    align-self: flex-end;
+	align-self: flex-end;
+	height: 20%;
+	padding-right: 20%;
     /* border: 2px solid white; */
 }
 
@@ -18,13 +27,34 @@ button.bring-up-nav {
 
 .toggle-icon .bar {
 	display: block;
-	width: 3.8em;
-	height: 0.2em;
-    margin: 0.9em;
-	border-right: 2.8em solid #d63031;
-	border-left: 0.6em solid #d63031;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+	/* width: 3.8em; */
+	height: 0.3em;
+    margin: 1em;
+	border-right: 3.3em solid #d63031;
+	border-left: 0.9em solid #d63031;
 	box-sizing: border-box;
 }
 /* End imported CSS */
+
+@media only screen and (max-width: 450px) {
+	#lineButton {
+		position: absolute;
+		top: 50%;
+	}
+	#nav-container{
+		align-self: flex-end;
+		height: 20%;
+		/* border: 2px solid white; */
+	}
+	
+	.toggle-icon .bar {
+		display: block;
+		/* width: 3.8em; */
+		height: 0.3em;
+		margin: .68em;
+		border-right: 2.8em solid #d63031;
+		border-left: 0.6em solid #d63031;
+		box-sizing: border-box;
+	}
+
+}

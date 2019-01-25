@@ -6,7 +6,7 @@ const SearchBox = ({ searchChange }) => {
         <div className="search-wrap">
             <input 
                 type="search" 
-                placeholder="start typing a language"
+                placeholder="Start typing a language, eg. &quot;gatsbyJS&quot;"
                 onChange={searchChange}
             />
         </div>

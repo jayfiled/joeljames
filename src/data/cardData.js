@@ -23,7 +23,7 @@ const cardData = [
             '#CSS Grid'
         ],
         name: 'Japanese Hiragana Flash Card App',
-        url: 'https://github.com/jayfiled/HiraganaFlash',
+        url: 'https://jayfiled.github.io/HiraganaFlash/',
         source: 'https://github.com/jayfiled/HiraganaFlash',
         picPath: 'hiraganaflash'
     },
@@ -50,7 +50,7 @@ const cardData = [
             '#CSS'
         ],
         name: 'Javascript Cheat Sheet',
-        url: 'https://github.com/jayfiled/JScheat',
+        url: 'https://jayfiled.github.io/JScheat/',
         source: 'https://github.com/jayfiled/JScheat',
         picPath: 'JSCheatSheet'
     },
@@ -77,7 +77,7 @@ const cardData = [
         ],
         name: 'Mobile phone product landing page',
         url: 'https://jayfiled.github.io/product-landing-page/',
-        source: 'https://jayfiled.github.io/product-landing-page/',
+        source: 'https://github.com/jayfiled/product-landing-page',
         picPath: 'product'
     },
     {

@@ -64,7 +64,7 @@ render() {
     })
 
     return (
-            <div>
+            <div className="main-wrapper">
 
             <div id="land-header">
                 <h3>Joel James</h3>
