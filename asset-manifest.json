@@ -1,10 +1,10 @@
 {
-  "main.css": "/joeljames/static/css/main.329959f9.chunk.css",
-  "main.js": "/joeljames/static/js/main.27b728a4.chunk.js",
-  "main.js.map": "/joeljames/static/js/main.27b728a4.chunk.js.map",
+  "main.css": "/joeljames/static/css/main.dc047089.chunk.css",
+  "main.js": "/joeljames/static/js/main.954c92bc.chunk.js",
+  "main.js.map": "/joeljames/static/js/main.954c92bc.chunk.js.map",
   "static/css/1.f112abba.chunk.css": "/joeljames/static/css/1.f112abba.chunk.css",
-  "static/js/1.dcadf38f.chunk.js": "/joeljames/static/js/1.dcadf38f.chunk.js",
-  "static/js/1.dcadf38f.chunk.js.map": "/joeljames/static/js/1.dcadf38f.chunk.js.map",
+  "static/js/1.a8360b1d.chunk.js": "/joeljames/static/js/1.a8360b1d.chunk.js",
+  "static/js/1.a8360b1d.chunk.js.map": "/joeljames/static/js/1.a8360b1d.chunk.js.map",
   "runtime~main.js": "/joeljames/static/js/runtime~main.33386511.js",
   "runtime~main.js.map": "/joeljames/static/js/runtime~main.33386511.js.map",
   "static/media/productlaunch.old.png": "/joeljames/static/media/productlaunch.old.26ec9618.png",
@@ -24,9 +24,9 @@
   "static/media/productlaunch.png": "/joeljames/static/media/productlaunch.f416ad21.png",
   "static/media/shoppinglist.png": "/joeljames/static/media/shoppinglist.d3782aea.png",
   "static/media/Portfolio.css": "/joeljames/static/media/portfol.f2f0322a.jpg",
-  "static/css/main.329959f9.chunk.css.map": "/joeljames/static/css/main.329959f9.chunk.css.map",
+  "static/css/main.dc047089.chunk.css.map": "/joeljames/static/css/main.dc047089.chunk.css.map",
   "static/css/1.f112abba.chunk.css.map": "/joeljames/static/css/1.f112abba.chunk.css.map",
   "index.html": "/joeljames/index.html",
-  "precache-manifest.ec89b532260237e34b9a0d0627cdbbe3.js": "/joeljames/precache-manifest.ec89b532260237e34b9a0d0627cdbbe3.js",
+  "precache-manifest.ec6dd982f3256de2c875f2ff653cd3f1.js": "/joeljames/precache-manifest.ec6dd982f3256de2c875f2ff653cd3f1.js",
   "service-worker.js": "/joeljames/service-worker.js"
 }
