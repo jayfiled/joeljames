@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PortCardList from './PortCardList';
 import '../css/Portfolio.css';
 import SearchBox from '../components/SearchBox';
-import PortBackButton from './PortBackButton';
+// import PortBackButton from './PortBackButton';
 
 class Portfolio extends Component {
     render(props) {
@@ -16,7 +16,7 @@ class Portfolio extends Component {
             <div id="portfolio-page" 
             className={portVisibility}>
                     <div className="back-and-search">
-                        <PortBackButton />
+                        {/* <PortBackButton /> */}
                         <SearchBox 
                         searchChange={this.props.searchChange}
                         />

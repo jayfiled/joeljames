@@ -88,10 +88,10 @@ render() {
                 />
 
 
-            <div id="bring-up-nav">
+            {/* <div id="bring-up-nav">
                 <span id="slide-right"></span>
                 <i className="fa fa-angle-double-right"></i>
-            </div>
+            </div> */}
 
         </div>   
     );
