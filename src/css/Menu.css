@@ -39,7 +39,7 @@ button.bring-up-nav {
 @media only screen and (max-width: 450px) {
 	#lineButton {
 		position: absolute;
-		top: 50%;
+		top: 5%;
 	}
 	#nav-container{
 		align-self: flex-end;
@@ -50,11 +50,33 @@ button.bring-up-nav {
 	.toggle-icon .bar {
 		display: block;
 		/* width: 3.8em; */
-		height: 0.3em;
-		margin: .68em;
-		border-right: 2.8em solid #d63031;
-		border-left: 0.6em solid #d63031;
+		height: 0.2em;
+		margin: .58em;
+		border-right: 2.4em solid #d63031;
+		border-left: 0.4em solid #d63031;
 		box-sizing: border-box;
 	}
 
+}
+
+@media only screen and (max-width: 982px) {
+	#lineButton {
+		position: absolute;
+		top: 5%;
+	}
+	#nav-container{
+		align-self: flex-end;
+		height: 20%;
+		/* border: 2px solid white; */
+	}
+	
+	.toggle-icon .bar {
+		display: block;
+		/* width: 3.8em; */
+		height: 0.2em;
+		margin: .58em;
+		border-right: 2.4em solid #d63031;
+		border-left: 0.4em solid #d63031;
+		box-sizing: border-box;
+	}
 }

@@ -85,8 +85,21 @@ p.location {
   }
 
   @media only screen and (max-width: 982px) {
+    #land-header {
+        align-self: flex-start;
+        padding-left: 5%;
+        padding-top: 10%;
+        
+    }
+
+    #land-header h3 {
+        align-self: flex-start;
+        font-size: 1.5em;
+        letter-spacing: 3px;
+    }
+    
     #land-title {
-        padding-left: 3%;
+        padding-left: 5%;
         /* border: 2px solid #d63031; */
         height: 100%;
     }
