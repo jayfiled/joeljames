@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/joeljames/static/media/JSCheatSheet.d7823f23.png"
   },
   {
-    "revision": "9cbd9dfc07bc08654e8d",
-    "url": "/joeljames/static/css/main.ddfdedec.chunk.css"
+    "revision": "c928872994f0bc971ee9",
+    "url": "/joeljames/static/css/main.95980506.chunk.css"
   },
   {
     "revision": "f2f0322ac08f41412a85d6165462ae01",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/joeljames/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/joeljames/static/media/fontawesome-webfont.b06871f2.ttf"
-  },
-  {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/joeljames/static/media/fontawesome-webfont.674f50d2.eot"
+  },
+  {
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/joeljames/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
@@ -44,6 +44,10 @@ self.__precacheManifest = [
     "url": "/joeljames/static/media/collab.d49404c5.jpg"
   },
   {
+    "revision": "f5413928d302f281dc35a3e79c8808ef",
+    "url": "/joeljames/static/media/icons8-delete-filled.f5413928.svg"
+  },
+  {
     "revision": "7ee328f8a77eaf3104734493ecc56ea0",
     "url": "/joeljames/static/media/nav-background.7ee328f8.jpg"
   },
@@ -52,8 +56,8 @@ self.__precacheManifest = [
     "url": "/joeljames/static/media/JSCheatSheet.old.45f404fb.png"
   },
   {
-    "revision": "9cbd9dfc07bc08654e8d",
-    "url": "/joeljames/static/js/main.9cbd9dfc.chunk.js"
+    "revision": "c928872994f0bc971ee9",
+    "url": "/joeljames/static/js/main.c9288729.chunk.js"
   },
   {
     "revision": "68825cfa9af66f2846b0ecf551c6e7ea",
@@ -104,7 +108,7 @@ self.__precacheManifest = [
     "url": "/joeljames/static/css/1.f112abba.chunk.css"
   },
   {
-    "revision": "444082fd5977bc7231271390503d8d2e",
+    "revision": "b1f07a72356f007124e455b10cd99725",
     "url": "/joeljames/index.html"
   }
 ];
