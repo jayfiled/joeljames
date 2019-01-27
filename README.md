@@ -28,11 +28,13 @@
     - [x] **Social icon for link to GitHub & website**
     - [x] **Add social links to card Data array**
     - [x] **Add scroll to portfolio page**
-    - [ ] **Make search sticky**
+    - [ ] **Make search sticky**    
 
 ### Other to-dos
 - [ ] **General**
     - [x] **Make responsive** 
+        - [] **Check landscape on mobile**
+        - [] **Put cross on nav, port and any subsequent non-desktop pages**
     - [x] **Change the color of the portfolio cards**
     - [x] **Change the thumbnails on the card to something that isn't a terribly scaled image**
     - [x] **Make the thumbnails work together aesthetically**
@@ -46,3 +48,5 @@
     - [ ] **Make an impactful subtitle for each card, i.e. "I solved xx problem.. "**
 - [] **Bugs**
     - [x] **Search card by lang/technology, not by name**
+    - [x] **Add cross on hover to go back**
+    - [] **Wire up event listener on portfolio page with handlers on hello**

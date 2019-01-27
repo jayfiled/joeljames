@@ -11,7 +11,6 @@ console.log(url);
         <div id="card-container">
             <div className="card-top">
                 <div className="tut-lang"><sup>{lang}</sup></div>
-                <hr />
                 <div className="card-title">{name}</div>
                 <div className="card-ref">
                     <a href={`${source}`} title="Click to view source"><i className="fa fa-github"></i></a>
