@@ -1,7 +1,7 @@
 {
-  "main.css": "/joeljames/static/css/main.95980506.chunk.css",
-  "main.js": "/joeljames/static/js/main.c9288729.chunk.js",
-  "main.js.map": "/joeljames/static/js/main.c9288729.chunk.js.map",
+  "main.css": "/joeljames/static/css/main.2e537132.chunk.css",
+  "main.js": "/joeljames/static/js/main.a04a712c.chunk.js",
+  "main.js.map": "/joeljames/static/js/main.a04a712c.chunk.js.map",
   "static/css/1.f112abba.chunk.css": "/joeljames/static/css/1.f112abba.chunk.css",
   "static/js/1.a8360b1d.chunk.js": "/joeljames/static/js/1.a8360b1d.chunk.js",
   "static/js/1.a8360b1d.chunk.js.map": "/joeljames/static/js/1.a8360b1d.chunk.js.map",
@@ -24,9 +24,9 @@
   "static/media/productlaunch.old.png": "/joeljames/static/media/productlaunch.old.26ec9618.png",
   "static/media/productlaunch.png": "/joeljames/static/media/productlaunch.f416ad21.png",
   "static/media/shoppinglist.png": "/joeljames/static/media/shoppinglist.d3782aea.png",
-  "static/css/main.95980506.chunk.css.map": "/joeljames/static/css/main.95980506.chunk.css.map",
   "static/css/1.f112abba.chunk.css.map": "/joeljames/static/css/1.f112abba.chunk.css.map",
+  "static/css/main.2e537132.chunk.css.map": "/joeljames/static/css/main.2e537132.chunk.css.map",
   "index.html": "/joeljames/index.html",
-  "precache-manifest.374867ab2bc75cdf91827f2e2cdc3623.js": "/joeljames/precache-manifest.374867ab2bc75cdf91827f2e2cdc3623.js",
+  "precache-manifest.8dedc3775dc09d40c72505c6a5e21511.js": "/joeljames/precache-manifest.8dedc3775dc09d40c72505c6a5e21511.js",
   "service-worker.js": "/joeljames/service-worker.js"
 }
