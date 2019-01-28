@@ -41,13 +41,11 @@ class Hello extends Component {
 
     handleMouseDown(e) {
         this.toggleMenu();
-        console.log('menu bar clicked')
         e.stopPropagation();
     }
 
     handleMouseDownNav(e) {
         this.togglePort();
-        console.log('portfolio clicked');
         e.stopPropagation();
     }
 
@@ -81,7 +79,7 @@ render() {
             <p className="location">Melbourne</p>
 
             <Portfolio 
-                handleMouseDownNav  
+                handleMouseDownNav={this.handleMouseDownNav} 
                 portVisibility={this.state.portVisible} 
                 cardData={filteredCards} 
                 searchChange={this.onSearchChange}

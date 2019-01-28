@@ -3,9 +3,9 @@ import '../css/PortCard.css';
 import 'font-awesome/css/font-awesome.min.css';
 
 
-const PortCard = ({ id, lang, name, url, source, picPath }) => {
+const PortCard = ({ id, lang, name, url, source, picPath, impactStatement }) => {
 
-console.log(url);
+// console.log(url);
 
     return (
         <div id="card-container">
@@ -13,6 +13,7 @@ console.log(url);
                 <div className="tut-lang"><sup>{lang}</sup></div>
                 <div className="card-title">{name}</div>
                 <div className="card-ref">
+                    <p>{impactStatement}</p>
                     <a href={`${source}`} title="Click to view source"><i className="fa fa-github"></i></a>
                 </div>
             </div>

@@ -45,12 +45,14 @@
   }
   
   .card-title {
-    font-size: 1.20em;
+    font-size: 1.30em;
     /* color: orange; */
     grid-area: title;
     color: rgba(45, 52, 54,1.0);
     align-self: start;
-    padding-top: 1em;
+    /* padding-top: 0.5em; */
+    /* border: 2px solid pink; */
+
   }
   
   .card-ref {
@@ -58,18 +60,25 @@
     /* border: 2px solid orange; */
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+
   }
 
-  .site {
-      align-self: flex-start;
-      border: 2px solid blue;
+  .card-ref p {
+    color: rgba(45, 52, 54,1.0);
+    font-size: 0.75em;
   }
 
-  .source {
-    border: 2px solid blue;
-  }
+  /* Lame over over the text in the cards to see it more clearly */
+  /* .card-ref p:hover {
+    transition: 1s ease-out;
+    transform: scale(1.5);
+    background: rgba(85, 239, 196,1.0);
+    padding: 1.5em;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2), 0.5px 0.5px 5px 1px rgba(0,0,0,0.1);
+
+  } */
   
   .card-bottom img {
     width: 100%;

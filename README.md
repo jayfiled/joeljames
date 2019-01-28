@@ -34,7 +34,7 @@
 - [ ] **General**
     - [x] **Make responsive** 
         - [] **Check landscape on mobile**
-        - [] **Put cross on nav, port and any subsequent non-desktop pages**
+        - [x] **Put 'back button' cross on nav, port and any subsequent non-desktop pages**
     - [x] **Change the color of the portfolio cards**
     - [x] **Change the thumbnails on the card to something that isn't a terribly scaled image**
     - [x] **Make the thumbnails work together aesthetically**
@@ -45,8 +45,9 @@
 
       - [How to - CSS](https://gist.github.com/JoeTheDave/876881f0e16d2809f9bbf78b22212527/raw/d8544537af32ba36bbb39d6371c784dc5a6b42b8/react-css-transition.css)
 
-    - [ ] **Make an impactful subtitle for each card, i.e. "I solved xx problem.. "**
+    - [x] **Make an impactful subtitle for each card, i.e. "I solved xx problem.. "**
 - [] **Bugs**
     - [x] **Search card by lang/technology, not by name**
     - [x] **Add cross on hover to go back**
-    - [] **Wire up event listener on portfolio page with handlers on hello**
+    - [x] **Wire up event listener on portfolio page with handlers on hello**
+    - [] **Fix issue with the eventHandler on the wrapper causing page to go back on mobile**

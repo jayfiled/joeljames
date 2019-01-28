@@ -46,6 +46,7 @@
 
 }
 
+
 @media only screen and (max-width: 450px) {
 #flyoutMenu {
     display: flex;
@@ -63,12 +64,41 @@
     #flyoutMenu {
         display: flex;
         flex-direction: column;
+        cursor: default;
     }
     
         #flyoutMenu h1 {
             height: 10%;
             font-size: 3.5em;
         }
-    
+            .close {
+                display: unset;
+                position: absolute;
+                top: 0.75%;
+                left: 2%;
+                width: 32px;
+                height: 32px;
+                opacity: 0.7;
+                z-index: 100;
+                color: white;
+              }
+              .close:hover {
+                opacity: 1;
+                cursor: pointer;
+              }
+              .close:before, .close:after {
+                position: absolute;
+                left: 15px;
+                content: ' ';
+                height: 33px;
+                width: 2px;
+                background-color: white;
+              }
+              .close:before {
+                transform: rotate(45deg);
+              }
+              .close:after {
+                transform: rotate(-45deg);
+            }
     }
 

@@ -13,6 +13,7 @@ const PortCardList = ({cardData}) => {
     url={element.url} 
     source={element.source} 
     picPath={element.picPath} 
+    impactStatement={element.impactStatement} 
     />
     
     );

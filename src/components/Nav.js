@@ -12,6 +12,10 @@ class Nav extends Component {
             <div id="flyoutMenu" 
                 onMouseDown={this.props.handleMouseDown}
                 className={visibility}>
+                <div className="close"
+                onMouseDown={this.props.handleMouseDown}
+                >
+                </div>
 
                 <h1 
                 onMouseDown={this.props.handleMouseDownNav}>
