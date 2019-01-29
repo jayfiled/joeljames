@@ -17,6 +17,7 @@
     margin: .5em 4em .5em 4em;
     /* border: 2px solid orange;  */
     cursor: default;
+    z-index: 5;
   }
   
   .card-top {
@@ -70,7 +71,7 @@
     font-size: 0.75em;
   }
 
-  /* Lame over over the text in the cards to see it more clearly */
+  /* Lame hover over the text in the cards to see it more clearly */
   /* .card-ref p:hover {
     transition: 1s ease-out;
     transform: scale(1.5);

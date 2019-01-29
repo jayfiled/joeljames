@@ -13,7 +13,8 @@ class Hello extends Component {
         this.state = {
           navVisible: false,
           portVisible: false,
-          searchField: ''
+          searchField: '',
+          screenSize: window.screen.width
         };
      
         this.handleMouseDown = this.handleMouseDown.bind(this);
@@ -49,6 +50,10 @@ class Hello extends Component {
         e.stopPropagation();
     }
 
+    smallScreen() {
+        console.log(`You've clicked the background on a small screen`)
+    }
+
     onSearchChange = (e) => {
         this.setState({ searchField: e.target.value })
     }
@@ -82,7 +87,9 @@ render() {
                 handleMouseDownNav={this.handleMouseDownNav} 
                 portVisibility={this.state.portVisible} 
                 cardData={filteredCards} 
-                searchChange={this.onSearchChange}
+                searchChange={this.onSearchChange} 
+                smallScreen={this.smallScreen} 
+                screenSize={this.state.screenSize} 
                 />
 
 
