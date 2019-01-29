@@ -5,7 +5,7 @@
 - [x] **Slide over menu nav** 
 - [x] **Page for portfolio**
 - [ ] **Page for about**   <sup>~ In progress ~</sup>
-- [ ] **Page for contact**
+- [ ] **Page for contact** <sup>~ In progress ~</sup>
 - [x] **Make responsive**
 - [ ] **Blog?**
 
@@ -18,7 +18,7 @@
     - [ ] **Add headings as links**
          - [x] **Portfolio**
          - [ ] **About**  <sup>~ In progress ~</sup>
-         - [ ] **Contact** 
+         - [ ] **Contact** <sup>~ In progress ~</sup>
 - [ ] **Portfolio page** 
     - [x] **Positioned below the viewport - slide up into viewport**
     - [x] **Cards with a picture and project information**
@@ -50,4 +50,4 @@
     - [x] **Search card by lang/technology, not by name**
     - [x] **Add cross on hover to go back**
     - [x] **Wire up event listener on portfolio page with handlers on hello**
-    - [] **Fix issue with the eventHandler on the wrapper causing page to go back on mobile**
+    - [x] **Fix issue with the eventHandler on the wrapper causing page to go back on mobile**
