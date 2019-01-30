@@ -20,7 +20,8 @@ class Nav extends Component {
                 <h1 
                 onMouseDown={this.props.handleMouseDownNav}>
                 Portfolio</h1>
-                <h1>About</h1>
+                <h1 
+                onMouseDown={this.props.handleMouseDownAbout}>About</h1>
                 <h1>Contact</h1>
             </div>
         )

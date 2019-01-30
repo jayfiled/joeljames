@@ -4,6 +4,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import Menu from './Menu';
 import Nav from './Nav';
 import Portfolio from './Portfolio';
+import About from './About';
 import cardData from '../data/cardData';
 
 class Hello extends Component {
@@ -13,6 +14,7 @@ class Hello extends Component {
         this.state = {
           navVisible: false,
           portVisible: false,
+          aboutVisible: false,
           searchField: '',
           screenSize: window.screen.width
         };
@@ -23,6 +25,8 @@ class Hello extends Component {
         this.handleMouseDownNav = this.handleMouseDownNav.bind(this);
         this.togglePort = this.togglePort.bind(this);
 
+        // this.handleMouseOver = this.handleMouseOver.bind(this);
+        // this.killLinkOnSearch = this.killLinkOnSearch.bind(this);
       }
 
     toggleMenu = () => {
@@ -50,8 +54,27 @@ class Hello extends Component {
         e.stopPropagation();
     }
 
+    handleMouseDownAbout = (e) => {
+        this.setState({
+            aboutVisible: !this.state.aboutVisible
+        })
+    }
+
+    handleMouseOver(e) {
+        this.setState({
+            screenSize: 421
+        })
+    }
+
     smallScreen() {
         console.log(`You've clicked the background on a small screen`)
+    }
+
+    killLinkOnSearch = (e) => {
+        console.log('Input field hovered!');
+        this.setState({
+            portVisible: true
+        })
     }
 
     onSearchChange = (e) => {
@@ -80,6 +103,7 @@ render() {
             <Menu handleMouseDown={this.handleMouseDown} />
             <Nav handleMouseDown={this.handleMouseDown}
                 handleMouseDownNav={this.handleMouseDownNav} 
+                handleMouseDownAbout={this.handleMouseDownAbout}  
                 menuVisibility={this.state.navVisible} />
             <p className="location">Melbourne</p>
 
@@ -90,7 +114,13 @@ render() {
                 searchChange={this.onSearchChange} 
                 smallScreen={this.smallScreen} 
                 screenSize={this.state.screenSize} 
+                killLinkOnSearch={this.killLinkOnSearch} 
                 />
+
+            <About 
+            handleMouseDownAbout={this.handleMouseDownAbout} 
+            aboutVisibility={this.state.aboutVisible} 
+            />
 
 
             {/* <div id="bring-up-nav">

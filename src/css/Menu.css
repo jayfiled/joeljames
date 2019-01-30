@@ -1,5 +1,3 @@
-/* Imported CSS from: Rıza Selçuk Saydam - https://codepen.io/rss/pen/vIDKH */
-
 #lineButton {
 	align-self: flex-end;
 	justify-self: flex-end;
@@ -22,7 +20,8 @@ button.bring-up-nav {
 
 .toggle-icon {
 	display: block;
-	cursor: pointer;
+    cursor: url("../resources/svgs/icons8-checkmark.svg"), auto;
+	
 }
 
 .toggle-icon .bar {
@@ -34,7 +33,6 @@ button.bring-up-nav {
 	border-left: 0.9em solid #d63031;
 	box-sizing: border-box;
 }
-/* End imported CSS */
 
 @media only screen and (max-width: 450px) {
 	#lineButton {

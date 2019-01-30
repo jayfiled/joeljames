@@ -1,6 +1,6 @@
 :root { 
     --background: white;
-    --card-top: rgba(85, 239, 196,1.0);
+    --card-top: rgba(29, 209, 161,1.0);
   }
   #card-container {
     background: var(--background);
@@ -16,7 +16,7 @@
     /* margin-top: 1em; */
     margin: .5em 4em .5em 4em;
     /* border: 2px solid orange;  */
-    cursor: url("../resources/svgs/icons8-hand-cursor.svg"), auto;
+    cursor: url("../resources/svgs/icons8-checkmark.svg"), auto;
     z-index: 5;
   }
   
@@ -93,14 +93,14 @@
 
   .card-bottom a {
     overflow: hidden;
-    cursor: url("../resources/svgs/icons8-hand-cursor.svg"), auto;
+    cursor: url("../resources/svgs/icons8-checkmark.svg"), auto;
 
   }
 
   #card-container:hover {
       transform: scale(1.1);
       box-shadow: 5px 5px 5px rgba(0,0,0,0.19), 1px 1px 5px 1px rgba(0,0,0,0.12);
-      cursor: url("../resources/svgs/icons8-hand-cursor.svg"), auto;
+      cursor: url("../resources/svgs/icons8-checkmark.svg"), auto;
       z-index: 6;
   }
 

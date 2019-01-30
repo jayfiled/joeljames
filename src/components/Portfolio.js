@@ -16,7 +16,7 @@ class Portfolio extends Component {
 
         if (this.props.screenSize < 982)
             eventOnDesktop = this.props.smallScreen;
-        // console.log(window.screen.width);
+        // console.log(this.props.killLinkOnSearch);
 
         return (
             <div id="portfolio-page" 
@@ -27,7 +27,8 @@ class Portfolio extends Component {
                         onMouseDown={this.props.handleMouseDownNav}>
                         </div>
                          <SearchBox 
-                        searchChange={this.props.searchChange}
+                        searchChange={this.props.searchChange} 
+                        killLinkOnSearch={this.props.killLinkOnSearch}
                         />
                     </div>
                     <PortCardList cardData={this.props.cardData}/>              
