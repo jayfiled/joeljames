@@ -28,7 +28,14 @@
     - [x] **Social icon for link to GitHub & website**
     - [x] **Add social links to card Data array**
     - [x] **Add scroll to portfolio page**
-    - [ ] **Make search sticky**    
+    - [ ] **Make search sticky**
+- [ ] **About page**
+    - [] **Large image taking up 100% width. 120% height**
+    - [] **same style and color as the landing page without the color gradient**
+    - [] **Scrollable (with an icon to show that it is, arrow)**
+    - [] **As you scroll text fades in**
+    - [] **General enquiries, address, social media icons**
+    - [] **What are you waiting for?  Get in touch text** 
 
 ### Other to-dos
 - [ ] **General**
