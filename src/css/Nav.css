@@ -37,12 +37,14 @@
     font-size: 5em;
     letter-spacing: 6px;
     z-index: 3;
-
+    
+    
 }
 
 #flyoutMenu h1:hover {
     color: black;
-    cursor: pointer;
+    cursor: url("../resources/svgs/icons8-hand-cursor.svg"), auto;
+    /* cursor: pointer; */
 
 }
 

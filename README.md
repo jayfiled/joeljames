@@ -43,9 +43,9 @@
     - [] **Move the centered main text down to same level as burger menu**
     - [] **Move the location closer to the main heading**
     - [] **Decrease the size of the burger menu**
-    - [] **Get an tick icon for hover over links that complements the cross to go back**
-    - [] **Fix the event handler that fires when you click on the input on desktop**🔥
-    - [] **Make cards wider on mobile**
+    - [x] **Get an tick icon for hover over links that complements the cross to go back**
+    - [x] **Fix the event handler that fires when you click on the input on desktop**
+    - [x] **Make cards wider on mobile**
     - [] **Fix the cross jumping around when typing into the input on portfolio**
     - [] **Make the animations less jittery**
 
