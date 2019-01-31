@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "45f404fb1d2b47936a7b05ae071c0e7a",
-    "url": "/joeljames/static/media/JSCheatSheet.old.45f404fb.png"
+    "revision": "56a0e054d54b6192e7f1f01c278d37cd",
+    "url": "/joeljames/static/media/fancyCats.56a0e054.png"
   },
   {
-    "revision": "780bdd24126397e9d821",
-    "url": "/joeljames/static/css/main.6637650d.chunk.css"
+    "revision": "f948f88cb68d947df542",
+    "url": "/joeljames/static/css/main.56fb322b.chunk.css"
   },
   {
-    "revision": "f2f0322ac08f41412a85d6165462ae01",
-    "url": "/joeljames/static/media/portfol.f2f0322a.jpg"
+    "revision": "58f8784ee5ab6fa8fd5f21c6a8c4dd2e",
+    "url": "/joeljames/static/media/workhard (Medium).58f8784e.jpg"
   },
   {
     "revision": "a8360b1d820e39744e2d",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/joeljames/static/media/nav-background.7ee328f8.jpg"
   },
   {
-    "revision": "780bdd24126397e9d821",
-    "url": "/joeljames/static/js/main.780bdd24.chunk.js"
+    "revision": "45f404fb1d2b47936a7b05ae071c0e7a",
+    "url": "/joeljames/static/media/JSCheatSheet.old.45f404fb.png"
   },
   {
     "revision": "d7823f23219360df74cd50ce98970041",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/joeljames/static/media/fancyCats.old.8616a36b.png"
   },
   {
-    "revision": "56a0e054d54b6192e7f1f01c278d37cd",
-    "url": "/joeljames/static/media/fancyCats.56a0e054.png"
+    "revision": "f948f88cb68d947df542",
+    "url": "/joeljames/static/js/main.f948f88c.chunk.js"
   },
   {
     "revision": "ba6c748bef321805bc2c37ce35479b8f",
@@ -108,11 +108,43 @@ self.__precacheManifest = [
     "url": "/joeljames/static/media/shoppinglist.d3782aea.png"
   },
   {
+    "revision": "f2f0322ac08f41412a85d6165462ae01",
+    "url": "/joeljames/static/media/portfol.f2f0322a.jpg"
+  },
+  {
+    "revision": "4a50dd826d14e9467cfef437c76305bd",
+    "url": "/joeljames/static/media/about-back.4a50dd82.jpg"
+  },
+  {
+    "revision": "6e915a4075dccdbe61f8ec1084045ce2",
+    "url": "/joeljames/static/media/bits (Medium).6e915a40.jpg"
+  },
+  {
+    "revision": "0a95461467d5961144f7beb7cbe553e4",
+    "url": "/joeljames/static/media/campaign (Medium).0a954614.jpg"
+  },
+  {
+    "revision": "6fe58dd341990844e4d01eb0ed1a89d3",
+    "url": "/joeljames/static/media/live (Medium).6fe58dd3.jpg"
+  },
+  {
+    "revision": "8a1e0c32eb2d4fedcf85d9432b4af6f7",
+    "url": "/joeljames/static/media/watchnphone (Medium).8a1e0c32.jpg"
+  },
+  {
+    "revision": "9b38b28f923773a1584891cf9a297acb",
+    "url": "/joeljames/static/media/wide-smile.9b38b28f.png"
+  },
+  {
+    "revision": "48e592baba50fa8d8fefe3da29a2a9d9",
+    "url": "/joeljames/static/media/think (Medium).48e592ba.jpg"
+  },
+  {
     "revision": "a8360b1d820e39744e2d",
     "url": "/joeljames/static/css/1.f112abba.chunk.css"
   },
   {
-    "revision": "2749eaa84896349e6ea6b41aad2f6a8f",
+    "revision": "8380c31aa4edf04468bb9c7bd5d401a7",
     "url": "/joeljames/index.html"
   }
 ];
