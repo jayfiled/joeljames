@@ -14,7 +14,7 @@ html {
   /* border-box box model allows us to add padding and border to our elements without increasing their size */
   box-sizing: border-box;
   /* A system font stack so things load nice and quick! */
-  font-family: 'Open Sans', Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Open Sans', 'Courier New', Courier, monospace, 'Sans serif';
   /* color: white; */
   /* text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07); */
 }

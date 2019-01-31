@@ -67,3 +67,4 @@
     - [x] **Wire up event listener on portfolio page with handlers on hello**
     - [x] **Fix issue with the eventHandler on the wrapper causing page to go back on mobile**
     - [x] **Fix broken menu slider** 
+    - [ ] **Landing page scrolls on iPhone safari**

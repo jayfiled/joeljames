@@ -1,25 +1,85 @@
 #about-page {
     /* border: 15px solid white; */
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
-    bottom: 100;
+    /* bottom: 100; */
     display: flex;
     /* flex-flow: row wrap; */
     flex-direction: column;
+    min-width: 100%;
     /* justify-content: space-evenly; */
     /* White background */
-    background: linear-gradient(0deg, rgba(40,44,52,0.8) 20%, rgba(16,29,55,0.90) 40%), linear-gradient(0deg, rgba(76, 209, 55,0.76) 10%, rgba(76, 209, 55,0.1) 40%), url(../resources/portfol.jpg) center;
-    background-size: cover;
-    min-height: 100%;
-    min-width: 100%;
     color: white;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Open Sans','Courier New', Courier, monospace;
     /* transition: transform 1s cubic-bezier(0.63, 0.21, 1,-0.01); */
-    z-index: 2;
     /* cursor: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='32px' height='32px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E %3Cpath d='M443.6,387.1L312.4,255.4l131.5-130c5.4-5.4,5.4-14.2,0-19.6l-37.4-37.6c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4 L256,197.8L124.9,68.3c-2.6-2.6-6.1-4-9.8-4c-3.7,0-7.2,1.5-9.8,4L68,105.9c-5.4,5.4-5.4,14.2,0,19.6l131.5,130L68.4,387.1 c-2.6,2.6-4.1,6.1-4.1,9.8c0,3.7,1.4,7.2,4.1,9.8l37.4,37.6c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1L256,313.1l130.7,131.1 c2.7,2.7,6.2,4.1,9.8,4.1c3.5,0,7.1-1.3,9.8-4.1l37.4-37.6c2.6-2.6,4.1-6.1,4.1-9.8C447.7,393.2,446.2,389.7,443.6,387.1z'/%3E %3C/svg%3E"), pointer; */
     cursor: url("../resources/svgs/icons8-delete-filled.svg"), auto;
-}  
+    z-index: 4;
+}
+
+.landing-picture-background {
+    background: linear-gradient(0deg, rgba(40,44,52,0.8) 20%, rgba(16,29,55,0.8) 40%), linear-gradient(0deg, rgba(40,44,52,0.6) 20%, rgba(40,44,52,0.6) 20%), url(../resources/about-back.jpg) center;
+    background-size: cover;
+    min-height: 120vh;
+    max-width: 100%;
+    z-index: 4;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 5px solid salmon; */
+}
+
+.landing-picture-background div {
+    padding-left: 2%;
+}
+
+.landing-picture-background h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: white;
+    /* border: 5px solid white; */
+}
+
+.landing-picture-background h1 {
+    max-width: 45vw;
+    font-size: 5em;
+    font-family: 'Abril Fatface', cursive;
+    color: #d63031;
+    /* border: 5px solid white; */
+
+}
+
+.white-space-blurb {
+    min-width: 100%;
+    display: flex;
+    background: white;
+}
+
+.white-space-blurb p {
+    color: #121c2d;
+    
+    letter-spacing: 2px;
+    max-width: 80vw;
+    padding: 20em;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+#img-grid {
+    display: grid;
+    grid-template-rows: 4;
+    grid-template-columns: 2;
+    padding: 5em;
+    /* max-width: 100vw; */
+    background-color: white;
+}
+
+#img-grid img {
+    /* max-width: 35%; */
+}
 
 /* 
 
@@ -40,7 +100,7 @@
 
 #about-page.hide {
     /* Comment the below line out to work on about page */
-    transform: translate3d(0, 100vh, 0);
+    /* transform: translate3d(0, 100vh, 0); */
     /* transition: transform 1s cubic-bezier(0.63, 0.21, 1,-0.01); */
     background-size: cover;
     
@@ -59,6 +119,9 @@
 @media only screen and (max-width: 982px) {
     #about-page {
     cursor: default;
+    }
+    #about-page h1 {
+        font-size: 3em;
     }
     .close {
         display: unset;

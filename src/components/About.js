@@ -20,13 +20,45 @@ class About extends Component {
             <div id="about-page" 
             className={aboutVisibility}
             onMouseDown={eventOnDesktop}>
-                <h1>Under construction 🔧</h1>
-                <div className="back-and-search">
+
+                <div className="landing-picture-background">
+
                     <div className="close" 
                         onMouseDown={this.props.handleMouseDownNav}>
                     </div>
-                </div>             
-            </div>
+
+                    <div>
+                        <h3>About me</h3>
+                    </div>
+
+                    <div>
+                        <h1>Focus, enthusiasm, energy, commitment.</h1>
+                    </div>
+                    {/* css down arrow */}
+
+                </div>
+
+                <div className="white-space-blurb">
+                    <p>Joel James is a User Experience and
+                    front end developer based in Melbourne. 
+                    He plans, creates and grows authentic digital 
+                    experiences for companies and individuals 
+                    looking to have a positive impact 
+                    on their customers lives</p>
+                </div>
+
+                <div id="img-grid">
+                    <img src={require(`../resources/grid/bits.jpg`)} alt="books-and-gadgets"/>
+                    <img src={require(`../resources/grid/campaign.jpg`)} alt=""/>
+                    <img src={require(`../resources/grid/live.jpg`)} alt=""/>
+                    <img src={require(`../resources/grid/smile.jpg`)} alt=""/>
+                    <img src={require(`../resources/grid/think.jpg`)} alt=""/>
+                    <img src={require(`../resources/grid/watchnphone.jpg`)} alt=""/>
+                    <img src={require(`../resources/grid/workhard.jpg`)} alt=""/>
+                </div>
+
+
+                </div>
         )
     }
 }
