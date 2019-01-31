@@ -44,17 +44,17 @@ class About extends Component {
                     He plans, creates and grows authentic digital 
                     experiences for companies and individuals 
                     looking to have a positive impact 
-                    on their customers lives</p>
+                    on their customers lives.</p>
                 </div>
 
                 <div id="img-grid">
-                    <img src={require(`../resources/grid/bits.jpg`)} alt="books-and-gadgets"/>
-                    <img src={require(`../resources/grid/campaign.jpg`)} alt=""/>
-                    <img src={require(`../resources/grid/live.jpg`)} alt=""/>
-                    <img src={require(`../resources/grid/smile.jpg`)} alt=""/>
-                    <img src={require(`../resources/grid/think.jpg`)} alt=""/>
-                    <img src={require(`../resources/grid/watchnphone.jpg`)} alt=""/>
-                    <img src={require(`../resources/grid/workhard.jpg`)} alt=""/>
+                    <img className="one" src={require(`../resources/grid/Cropped/bits (Medium).jpg`)} alt="books-and-gadgets"/>
+                    <img className="two" src={require(`../resources/grid/Cropped/campaign (Medium).jpg`)} alt=""/>
+                    <img className="three" src={require(`../resources/grid/Cropped/live (Medium).jpg`)} alt=""/>
+                    <img className="four" src={require(`../resources/grid/Cropped/watchnphone (Medium).jpg`)} alt=""/>
+                    <img className="five" src={require(`../resources/grid/Cropped/wide-smile.png`)} alt=""/>
+                    <img className="six" src={require(`../resources/grid/Cropped/think (Medium).jpg`)} alt=""/>
+                    <img className="seven" src={require(`../resources/grid/Cropped/workhard (Medium).jpg`)} alt=""/>
                 </div>
 
 
