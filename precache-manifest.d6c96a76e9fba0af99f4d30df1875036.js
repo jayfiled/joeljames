@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/joeljames/static/media/fancyCats.56a0e054.png"
   },
   {
-    "revision": "f948f88cb68d947df542",
-    "url": "/joeljames/static/css/main.56fb322b.chunk.css"
+    "revision": "d1437e8fe5a1c1e47e56",
+    "url": "/joeljames/static/css/main.c8a04e80.chunk.css"
   },
   {
     "revision": "58f8784ee5ab6fa8fd5f21c6a8c4dd2e",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/joeljames/static/media/fancyCats.old.8616a36b.png"
   },
   {
-    "revision": "f948f88cb68d947df542",
-    "url": "/joeljames/static/js/main.f948f88c.chunk.js"
+    "revision": "d1437e8fe5a1c1e47e56",
+    "url": "/joeljames/static/js/main.d1437e8f.chunk.js"
   },
   {
     "revision": "ba6c748bef321805bc2c37ce35479b8f",
@@ -144,7 +144,7 @@ self.__precacheManifest = [
     "url": "/joeljames/static/css/1.f112abba.chunk.css"
   },
   {
-    "revision": "8380c31aa4edf04468bb9c7bd5d401a7",
+    "revision": "83ec12a9bf989e32d6287a2dc5306092",
     "url": "/joeljames/index.html"
   }
 ];
