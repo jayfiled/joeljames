@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/joeljames/static/media/JSCheatSheet.old.45f404fb.png"
   },
   {
-    "revision": "06e5dba3a87bb0656330",
-    "url": "/joeljames/static/css/main.d38c71c6.chunk.css"
+    "revision": "780bdd24126397e9d821",
+    "url": "/joeljames/static/css/main.6637650d.chunk.css"
   },
   {
     "revision": "f2f0322ac08f41412a85d6165462ae01",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/joeljames/static/media/nav-background.7ee328f8.jpg"
   },
   {
-    "revision": "06e5dba3a87bb0656330",
-    "url": "/joeljames/static/js/main.06e5dba3.chunk.js"
+    "revision": "780bdd24126397e9d821",
+    "url": "/joeljames/static/js/main.780bdd24.chunk.js"
   },
   {
     "revision": "d7823f23219360df74cd50ce98970041",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/joeljames/static/css/1.f112abba.chunk.css"
   },
   {
-    "revision": "24f321377f3e44debb12bda2b2fda10f",
+    "revision": "2749eaa84896349e6ea6b41aad2f6a8f",
     "url": "/joeljames/index.html"
   }
 ];
