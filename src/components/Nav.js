@@ -5,7 +5,7 @@ class Nav extends Component {
     render(props) {
         let visibility = 'hide';
         
-        if (this.props.aboutVisibility)
+        if (this.props.aboutVisibility || this.props.menuVisibility)
             visibility = 'show';
         
         return (

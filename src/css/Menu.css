@@ -3,6 +3,8 @@
 	justify-self: flex-end;
 	max-width: 20%;
 	/* border: 2px solid orange; */
+    cursor: url("../resources/svgs/icons8-checkmark.svg"), auto;
+
 }
 
 button.bring-up-nav {
@@ -19,9 +21,7 @@ button.bring-up-nav {
 }
 
 .toggle-icon {
-	display: block;
-    cursor: url("../resources/svgs/icons8-checkmark.svg"), auto;
-	
+	display: block;	
 }
 
 .toggle-icon .bar {

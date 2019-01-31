@@ -88,7 +88,7 @@ render() {
     const filteredCards = cardData.filter(portCard => {
         return portCard.lang.join(' ').toLowerCase().includes(searchField.toLowerCase());
     })
-
+// console.log(this.handleMouseDown)
     return (
             <div className="main-wrapper">
 
