@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../css/About.css';
+import Menu from './Menu';
+import '../css/Menu.css';
 
 class About extends Component {
     render(props) {
@@ -8,7 +10,7 @@ class About extends Component {
         if (this.props.aboutVisibility)
             aboutVisibility = 'show';
         
-            let eventOnDesktop = this.props.handleMouseDownNav;
+            let eventOnDesktop = this.props.handleMouseDownAbout;
 
         // removes the event listener onMouseDown that slides the page away
         // when you click anywhere on the background
@@ -46,6 +48,8 @@ class About extends Component {
                     looking to have a positive impact 
                     on their customers lives.</p>
                 </div>
+
+                <Menu />
 
                 <div id="grid-background">
                     <div id="img-grid">

@@ -3,7 +3,8 @@
 	justify-self: flex-end;
 	max-width: 20%;
 	/* border: 2px solid orange; */
-    cursor: url("../resources/svgs/icons8-checkmark.svg"), auto;
+	cursor: url("../resources/svgs/icons8-checkmark.svg"), auto;
+	z-index: 4;
 
 }
 

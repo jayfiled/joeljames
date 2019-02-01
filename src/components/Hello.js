@@ -56,7 +56,8 @@ class Hello extends Component {
 
     handleMouseDownAbout = (e) => {
         this.setState({
-            aboutVisible: !this.state.aboutVisible
+            aboutVisible: !this.state.aboutVisible,
+            navVisible: true,
         })
     }
 

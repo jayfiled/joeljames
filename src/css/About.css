@@ -8,7 +8,7 @@
     color: white;
     font-family: 'Open Sans','Courier New', Courier, monospace;
     cursor: url("../resources/svgs/icons8-delete-filled.svg"), auto;
-    transition: transform 0.5s cubic-bezier(0.63, 0.21, 1,-0.01);
+    transition: transform 0.5s cubic-bezier(1, 0.21, 1,-0.01);
 
     z-index: 4;
 }
@@ -103,9 +103,10 @@
 #about-page.hide {
     /* Comment the below line out to work on about page */
     position: fixed;
-    transform: translate3d(0, 100vh, 0);
-    transition: transform 1s cubic-bezier(0.63, 0.21, 1,-0.01);
+    transform: translate3d(-200vw, 0, 0);
+    transition: transform 1s cubic-bezier(1, 0.21, 1,-0.01);
     background-size: cover;
+    z-index: 2;
     
 }
 
@@ -170,6 +171,11 @@
     }
     .blurb p {
         max-width: 90%;
+    }
+    .what-else {
+        color: #2f3542;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 3em;
     }
 
 }
