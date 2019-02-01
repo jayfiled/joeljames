@@ -30,11 +30,11 @@
     - [x] **Add scroll to portfolio page**
     - [ ] **Make search sticky**
 - [ ] **About page**
-    - [ ] **Large image taking up 100% width. 120% height**
-    - [ ] **same style and color as the landing page without the color gradient**
+    - [x] **Large image taking up 100% width. 120% height**
+    - [x] **same style and color as the landing page without the color gradient**
     - [ ] **Scrollable (with an icon to show that it is, arrow)**
     - [ ] **As you scroll text fades in**
-    - [ ] **General enquiries, address, social media icons**
+    - [ ] **General enquiries, address, social media icons**<sup>~ In progress ~</sup>
     - [ ] **What are you waiting for?  Get in touch text** 
 
 ### Other to-dos
@@ -68,3 +68,4 @@
     - [x] **Fix issue with the eventHandler on the wrapper causing page to go back on mobile**
     - [x] **Fix broken menu slider** 
     - [ ] **Landing page scrolls on iPhone safari**
+    - [ ] **Fix horrible animations on about page reveal and hide**🔥
