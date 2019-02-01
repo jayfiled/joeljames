@@ -38,7 +38,7 @@ class About extends Component {
 
                 </div>
 
-                <div className="white-space-blurb">
+                <div className="paragraph-text white-space-blurb">
                     <p>Joel James is a User Experience and
                     front end developer based in Melbourne. 
                     He plans, creates and grows authentic digital 
@@ -59,7 +59,20 @@ class About extends Component {
                     </div>
                 </div>
 
-                </div>
+            <div className="paragraph-text blurb">
+
+                <p>I work for companies that work for their customers.</p>
+
+            </div>
+
+            <div className="dont-wait paragraph-text">
+
+                <p className="what-else">What else would you like to know?</p>
+                <p className="go-to-contact-page">Get in touch</p>
+
+            </div>
+
+            </div>
         )
     }
 }
