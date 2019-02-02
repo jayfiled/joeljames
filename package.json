@@ -2,7 +2,7 @@
   "name": "joeljames",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jayfiled.github.io/joeljames/",
+  "homepage": "https://joel-james.netlify.com/",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "react": "^16.7.0",
