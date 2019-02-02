@@ -6,6 +6,7 @@ div.main-wrapper {
     /* border: 0px; */
     display: flex;
     flex-direction: column;
+    max-height: 100vh;
     /* border: 3px solid orange; */
 }
 
