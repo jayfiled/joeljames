@@ -71,3 +71,4 @@
     - [x] **Fix broken menu slider** 
     - [x] **Landing page scrolls on iPhone safari and chrome**
     - [x] **Fix horrible animations on about page reveal and hide**🔥
+    - [] **Fix navigation on About page after you've scrolled - needs another way to navigate**
