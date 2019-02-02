@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../css/About.css';
-import Menu from './Menu';
-import '../css/Menu.css';
+import MenuForAbout from './MenuForAbout';
+import '../css/MenuForAbout.css';
 
 class About extends Component {
     render(props) {
@@ -28,9 +28,11 @@ class About extends Component {
                     <div className="close" 
                         onMouseDown={this.props.handleMouseDownNav}>
                     </div>
-
+                    
                     <div>
                         <h3>About me</h3>
+                        <MenuForAbout />
+
                     </div>
 
                     <div>
@@ -48,8 +50,6 @@ class About extends Component {
                     looking to have a positive impact 
                     on their customers lives.</p>
                 </div>
-
-                <Menu />
 
                 <div id="grid-background">
                     <div id="img-grid">
@@ -73,6 +73,7 @@ class About extends Component {
 
                 <p className="what-else">What else would you like to know?</p>
                 <p className="go-to-contact-page">Get in touch</p>
+                <img src={require(`../resources/icons/right-arrow.png`)} alt="link-to-about-page"/>
 
             </div>
 

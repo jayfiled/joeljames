@@ -8,7 +8,9 @@
     color: white;
     font-family: 'Open Sans','Courier New', Courier, monospace;
     cursor: url("../resources/svgs/icons8-delete-filled.svg"), auto;
-    transition: transform 0.5s cubic-bezier(1, 0.21, 1,-0.01);
+    /* transition: transform 0.5s cubic-bezier(1, 0.21, 1,-0.01); */
+    transition: none;
+
 
     z-index: 4;
 }
@@ -104,7 +106,7 @@
     /* Comment the below line out to work on about page */
     position: fixed;
     transform: translate3d(-200vw, 0, 0);
-    transition: transform 1s cubic-bezier(1, 0.21, 1,-0.01);
+    transition: transform .67s cubic-bezier(1, 0.21, 1,-0.01);
     background-size: cover;
     z-index: 2;
     
@@ -133,6 +135,22 @@
     max-width: 100%;
     height: 750px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+p.what-else {
+    color: #2f3542;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3em;
+}
+
+p.go-to-contact-page {
+    font-size: 2em;
+    color: #d63031;
+    font-weight: bolder;
+
+
 }
 
 /* causes issues on mobile:
@@ -162,7 +180,7 @@
     
     #img-grid {
         max-width: 80vw;
-        padding-top: 0.1em;
+        padding-top: 10em;
         padding-bottom: 9em;
     }
 

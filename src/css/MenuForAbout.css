@@ -1,31 +1,42 @@
-#lineButton {
+#lineButtonA {
 	align-self: flex-end;
 	justify-self: flex-end;
 	max-width: 20%;
 	/* border: 2px solid orange; */
 	cursor: url("../resources/svgs/icons8-checkmark.svg"), auto;
-	z-index: 2;
+	/* z-index: 4; */
+	/* position: absolute; */
+	/* top: ; */
+	width: 50px;
+	height: 42px;
+	position: fixed;
+	top: 50%;
+	right: 50px;
+	margin-top: -21px;
+	display: inline-block;
+	z-index: 12;
 
 }
 
-button.bring-up-nav {
+
+button.bring-up-navA {
     align-self: flex-end;
     background: transparent;
     border: none;
 }
 
-#nav-container{
+#nav-containerA{
 	align-self: flex-end;
 	height: 20%;
 	padding-right: 20%;
     /* border: 2px solid white; */
 }
 
-.toggle-icon {
+.toggle-iconA {
 	display: block;	
 }
 
-.toggle-icon .bar {
+.toggle-iconA .barA {
 	display: block;
 	/* width: 3.8em; */
 	height: 0.3em;
@@ -36,17 +47,17 @@ button.bring-up-nav {
 }
 
 @media only screen and (max-width: 450px) {
-	#lineButton {
+	#lineButtonA {
 		position: absolute;
 		top: 5%;
 	}
-	#nav-container{
+	#nav-containerA{
 		align-self: flex-end;
 		height: 20%;
 		/* border: 2px solid white; */
 	}
 	
-	.toggle-icon .bar {
+	.toggle-iconA .barA {
 		display: block;
 		/* width: 3.8em; */
 		height: 0.2em;
@@ -59,17 +70,17 @@ button.bring-up-nav {
 }
 
 @media only screen and (max-width: 982px) {
-	#lineButton {
+	#lineButtonA {
 		position: absolute;
 		top: 5%;
 	}
-	#nav-container{
+	#nav-containerA{
 		align-self: flex-end;
 		height: 20%;
 		/* border: 2px solid white; */
 	}
 	
-	.toggle-icon .bar {
+	.toggle-iconA .barA {
 		display: block;
 		/* width: 3.8em; */
 		height: 0.2em;
