@@ -5,6 +5,7 @@ import Menu from './Menu';
 import Nav from './Nav';
 import Portfolio from './Portfolio';
 import About from './About';
+import Contact from './Contact';
 import cardData from '../data/cardData';
 
 class Hello extends Component {
@@ -15,6 +16,7 @@ class Hello extends Component {
           navVisible: false,
           portVisible: false,
           aboutVisible: false,
+          contactVisible: false,
           searchField: '',
           screenSize: window.screen.width
         };
@@ -57,7 +59,14 @@ class Hello extends Component {
     handleMouseDownAbout = (e) => {
         this.setState({
             aboutVisible: !this.state.aboutVisible,
-            navVisible: true,
+            navVisible: true
+        })
+    }
+
+    handleMouseDownContact = (e) => {
+        this.setState({
+            contactVisible: !this.state.contactVisible,
+            navVisible: true
         })
     }
 
@@ -104,7 +113,8 @@ render() {
             <Menu handleMouseDown={this.handleMouseDown} />
             <Nav handleMouseDown={this.handleMouseDown}
                 handleMouseDownNav={this.handleMouseDownNav} 
-                handleMouseDownAbout={this.handleMouseDownAbout}  
+                handleMouseDownAbout={this.handleMouseDownAbout} 
+                handleMouseDownContact={this.handleMouseDownContact}   
                 menuVisibility={this.state.navVisible} />
             <p className="location">Melbourne</p>
 
@@ -122,6 +132,12 @@ render() {
             handleMouseDownAbout={this.handleMouseDownAbout} 
             aboutVisibility={this.state.aboutVisible} 
             />
+
+            <Contact 
+            handleMouseDownContact={this.handleMouseDownContact} 
+            contactVisibility={this.state.contactVisible} 
+            />
+
 
 
             {/* <div id="bring-up-nav">

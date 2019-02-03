@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-import PortCardList from './PortCardList';
-import '../css/Portfolio.css';
-import SearchBox from '../components/SearchBox';
-// import PortBackButton from './PortBackButton';
+import '../css/Contact.css';
 
-class Portfolio extends Component {
+
+class Contact extends Component {
     render(props) {
         
-        let portVisibility = 'hide';
+        let contactVisibility = 'hide';
 
-        if (this.props.portVisibility)
-            portVisibility = 'show';
+        if (this.props.contactVisibility)
+            contactVisibility = 'show';
         
-            let eventOnDesktop = this.props.handleMouseDownNav;
+            let eventOnDesktop = this.props.handleMouseDownContact;
 
         if (this.props.screenSize < 982)
             eventOnDesktop = this.props.smallScreen;
@@ -20,20 +18,48 @@ class Portfolio extends Component {
 
         return (
             <div id="contact-page" 
-            className={portVisibility}
+            className={contactVisibility}
             onMouseDown={eventOnDesktop}>
-                    <div className="back-and-search">
-                        <div className="close" 
-                        onMouseDown={this.props.handleMouseDownNav}>
-                        </div>
-                         <SearchBox 
-                        searchChange={this.props.searchChange}
-                        />
+
+                <div className="landing-picture-background">
+
+                    <div className="close" 
+                        onMouseDown={this.props.handleMouseDownContact}>
                     </div>
-                    <PortCardList cardData={this.props.cardData}/>              
+
+                    <div>
+                        <h3>Contact</h3>
+                        {/* <MenuForAbout /> */}
+
+                    </div>
+
+                    <div>
+                        <h1>If I can help you with a project, please get in touch</h1>
+                    </div>
+                    {/* css down arrow */}
+
+                </div>
+
+                <div className="contact-addresses">
+                    <div className="paragraph-text white-space-blurb">
+                        <p> I work with companies of all shapes and sizes from all walks
+                            of life.  If there's a project that you think we would be a good 
+                            fit for, get in touch.  If you're not sure, get in touch anyway.
+                            I can shed light on the process.
+                        </p>
+                    </div>
+                    <div className="enquiries"></div>
+                    <div className="location"></div>
+                </div>
+
+                <div className="dont-wait paragraph-text">
+                    <p className="what-else">What are you waiting for?</p>
+                    <p className="go-to-contact-page">Get in touch</p>
+                </div>
+               
                 </div>
         )
     }
 }
 
-export default Portfolio;
+export default Contact;
