@@ -17,7 +17,8 @@
     - [x] **Remove landing page elements before nav page slides over**
     - [ ] **Add headings as links**
          - [x] **Portfolio**
-         - [ ] **About**  <sup>~ In progress ~</sup>
+         - [x] **About**  
+            - [ ] **Need to add link to bottom arrow to contact page**
          - [ ] **Contact** <sup>~ In progress ~</sup>
 - [ ] **Portfolio page** 
     - [x] **Positioned below the viewport - slide up into viewport**
@@ -71,4 +72,4 @@
     - [x] **Fix broken menu slider** 
     - [x] **Landing page scrolls on iPhone safari and chrome**
     - [x] **Fix horrible animations on about page reveal and hide**🔥
-    - [] **Fix navigation on About page after you've scrolled - needs another way to navigate**
+    - [ ] **Fix navigation on About page after you've scrolled - needs another way to navigate**
