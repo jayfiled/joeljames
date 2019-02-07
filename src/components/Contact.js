@@ -48,7 +48,17 @@ class Contact extends Component {
                             I can shed light on the process.
                         </p>
                     </div>
-                    <div className="enquiries"></div>
+                </div>
+                <div className="enquiries">
+                        <div className='item'>
+                            <p className="bold-text">Enquiries</p>
+                            <p>joel.james@outlook.com</p>
+                        </div>
+                        <div className='item'>
+                            <a href="https://github.com/jayfiled/">GitHub</a>
+                            <a href="https://www.linkedin.com/in/joel-james-04555849/">LinkedIn</a>
+                            
+                        </div>
                     <div className="location"></div>
                 </div>
 

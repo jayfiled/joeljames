@@ -15,106 +15,35 @@
     z-index: 4;
 }
 
-
-
-/* 
-//////////////-Inherited classes from About.css -///////////////////////////////
-
-.landing-picture-backgroundC {
-    background: linear-gradient(0deg, rgba(40,44,52,0.8) 20%, rgba(16,29,55,0.8) 40%), linear-gradient(0deg, rgba(40,44,52,0.6) 20%, rgba(40,44,52,0.6) 20%), url(../resources/about-back.jpg) center;
-    background-size: cover;
-    min-height: 120vh;
-    max-width: 100%;
-    z-index: 4;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.landing-picture-background div {
-    padding-left: 2%;
-}
-
-.landing-picture-background h3 {
-    font-size: 1.5em;
-    font-weight: 100;
-    letter-spacing: 2px;
-    color: white;
-}
-
-.landing-picture-background h1 {
-    max-width: 45vw;
-    font-size: 5em;
-    font-family: 'Abril Fatface', cursive;
-    color: #d63031;
-
-}
-
-.paragraph-text {
-    min-width: 100%;
+.enquiries {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    border: 5px solid salmon;
-}
-
-.white-space-blurb {
-    min-height: 1000px;
-    background: white;
-}
-
-.white-space-blurb p {
-    color: #121c2d;
-    letter-spacing: 2px;
-    min-width: 10vw; <-- troublemaker when set to max-width
-    max-width: 45%;
-    max-height: 80%;
-    font-size: 1.5em;
-        border: 5px solid salmon;
-
-}
-/////////////////////////////////////////////
-
-*/
-
-/* 
-#grid-background {
-    max-width: 100vw;
+    border: 2px solid salmon;
     background-color: white;
-} */
-
-/* #img-grid {
-    display: grid;
-    max-width: 40vw;
-    margin: auto;
-    grid-template-areas: 
-    "one two"
-    "three four"
-    "five five"
-    "six seven";
-    grid-template-columns: 50% 50%;
-    background-color: white;
-    padding-bottom: 18em;
-} */
-
-/* #img-grid img {width: 100%;}
-
-.one {grid-area: one;}
-.two {grid-area: two;}
-.three {grid-area: three;}
-.four {grid-area: four;}
-.five {grid-area: five;}
-.six {grid-area: six;}
-.seven {grid-area: seven;} */
+    font-family: 'open sans';
 
 
+}
+
+.item {
+    color: black;
+    padding: 20px;
+    border: 2px solid yellow;
+}
+
+.item a {
+    display: block;
+}
+
+.item p {
+    margin: 0;
+}
 
 #contact-page.hide {
     /* Comment the below line out to work on about page */
     position: fixed;
-    transform: translate3d(-200vw, 0, 0);
+    /* transform: translate3d(-200vw, 0, 0); */
     transition: transform .67s cubic-bezier(1, 0.21, 1,-0.01);
     background-size: cover;
     z-index: 2;
