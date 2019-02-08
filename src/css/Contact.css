@@ -30,14 +30,16 @@
     color: black;
     padding: 20px;
     /* border: 2px solid yellow; */
+    /* display: flex; */
 }
 
-.item a {
-    display: block;
-}
 
 .item p {
     margin: 0;
+}
+
+.item a {
+    padding: 0 50px 25px 0;
 }
 
 #contact-page.hide {
@@ -55,6 +57,11 @@
     transform: translate3d(0, 0vh, 0);
     background-size: cover;
 }  
+
+.fa {
+    font-size: 2.5em;
+    color: rgba(47, 54, 64,1.0);
+}
 
 
 @media only screen and (max-width: 450px) {

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../css/Contact.css';
+import 'font-awesome/css/font-awesome.min.css';
+
 
 
 class Contact extends Component {
@@ -50,13 +52,13 @@ class Contact extends Component {
                     </div>
                 </div>
                 <div className="enquiries">
-                        <div className='item'>
+                        <div className='item white-space-blurb'>
                             <p className="bold-text">Enquiries</p>
                             <p>joel.james@outlook.com</p>
                         </div>
                         <div className='item'>
-                            <a href="https://github.com/jayfiled/">GitHub</a>
-                            <a href="https://www.linkedin.com/in/joel-james-04555849/">LinkedIn</a>
+                        <a href={`https://github.com/jayfiled/`} title="Click to view my GitHub profile"><i className="fa fa-github"></i></a>
+                        <a href={`https://www.linkedin.com/in/joel-james-04555849/`} title="Click to view my LinkedIn profile"><i className="fa fa-linkedin"></i></a>
                             
                         </div>
                     <div className="location"></div>
