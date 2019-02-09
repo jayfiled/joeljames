@@ -4,8 +4,8 @@
 - [x] [**Build landing page**](https://jayfiled.github.io/joeljames/)
 - [x] **Slide over menu nav** 
 - [x] **Page for portfolio**
-- [ ] **Page for about**   <sup>~ In progress ~</sup>
-- [ ] **Page for contact** <sup>~ In progress ~</sup>
+- [x] **Page for about**   <sup>~ Completed, now tweaking ~</sup>
+- [x] **Page for contact** <sup>~ Completed, now tweaking ~</sup>
 - [x] **Make responsive**
 - [ ] **Blog?**
 
@@ -73,3 +73,6 @@
     - [x] **Landing page scrolls on iPhone safari and chrome**
     - [x] **Fix horrible animations on about page reveal and hide**🔥
     - [ ] **Fix navigation on About page after you've scrolled - needs another way to navigate**
+    - [ ] **Contact page needs a back event handler**
+    - [ ] **About page needs event handler to switch the contact page's .show class**
+    - [ ] **Need some fixed menus on About and contact for navigation**
