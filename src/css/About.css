@@ -8,11 +8,11 @@
     color: white;
     font-family: 'Open Sans','Courier New', Courier, monospace;
     /* cursor: url("../resources/svgs/icons8-delete-filled.svg"), auto; */
-    /* transition: transform 0.5s cubic-bezier(1, 0.21, 1,-0.01); */
-    transition: none;
+    /* transform: translate3d(0, 0vh, 0); */
+    transition: transform 0.5s cubic-bezier(0.63, 0.21, 1,-0.01);
 
-
-    z-index: 4;
+    /* transition: none; */
+    /* z-index: 5; */
 }
 
 .landing-picture-background {
@@ -20,7 +20,7 @@
     background-size: cover;
     min-height: 120vh;
     max-width: 100%;
-    z-index: 4;
+    z-index: 5;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -105,14 +105,15 @@
 #about-page.hide {
     /* Comment the below line out to work on about page */
     position: fixed;
+    z-index: 4;
     transform: translate3d(-200vw, 0, 0);
-    transition: transform .67s cubic-bezier(1, 0.21, 1,-0.01);
+    transition: transform 0.5s cubic-bezier(0.63, 0.21, 1,-0.01);    
     background-size: cover;
-    z-index: 2;
     
 }
 
 #about-page.show {
+    z-index: 5;
     position: absolute;
     transform: translate3d(0, 0vh, 0);
     background-size: cover;

@@ -4,7 +4,7 @@ import '../css/Menu.css'
 class Menu extends Component {
     render(props) {
         return (
-            <button id="lineButtonA" className="bring-up-navA" onMouseDown={this.props.handleMouseDown} >
+            <button id="lineButtonA" className="bring-up-navA" onMouseDown={this.props.handleMouseDownAbout} >
                 <div id="nav-containerA">
                     <div className="toggle-iconA">
                         <span className="barA"></span>

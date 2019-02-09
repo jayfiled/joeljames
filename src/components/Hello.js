@@ -27,6 +27,12 @@ class Hello extends Component {
         this.handleMouseDownNav = this.handleMouseDownNav.bind(this);
         this.togglePort = this.togglePort.bind(this);
 
+        this.handleMouseDownAbout = this.handleMouseDownAbout.bind(this);
+        this.toggleAbout = this.toggleAbout.bind(this);
+
+        this.handleMouseDownContact = this.handleMouseDownContact.bind(this);
+        this.toggleContact = this.toggleContact.bind(this);
+
         // this.handleMouseOver = this.handleMouseOver.bind(this);
         // this.killLinkOnSearch = this.killLinkOnSearch.bind(this);
       }
@@ -34,7 +40,9 @@ class Hello extends Component {
     toggleMenu = () => {
         this.setState({
             navVisible: !this.state.navVisible,
-            portVisible: false
+            portVisible: false,
+            aboutVisible: false,
+            contactVisible: false
         });
     }
 
@@ -42,6 +50,20 @@ class Hello extends Component {
         this.setState({
             navVisible: true,
             portVisible: !this.state.portVisible
+        });
+    }
+
+    toggleAbout = () => {
+        this.setState({
+            navVisible: true,
+            aboutVisible: !this.state.aboutVisible
+        });
+    }
+
+    toggleContact = () => {
+        this.setState({
+            navVisible: true,
+            contactVisible: !this.state.contactVisible
         });
     }
 
@@ -56,20 +78,37 @@ class Hello extends Component {
         e.stopPropagation();
     }
 
-    handleMouseDownAbout = (e) => {
-        this.setState({
-            aboutVisible: !this.state.aboutVisible,
-            navVisible: true
-        })
+    handleMouseDownAbout(e) {
+        this.toggleAbout();
+        e.stopPropagation();
     }
 
-    handleMouseDownContact = (e) => {
-        console.log('clicked');
-        this.setState({
-            contactVisible: !this.state.contactVisible,
-            navVisible: true
-        })
+    handleMouseDownContact(e) {
+        this.toggleContact();
+        e.stopPropagation();
     }
+
+    // testing to see whether there are issues using arrow functions and binding
+    // DON't use a variety of binding the 'this' object and using arrow functions to reference
+    // the current function scope
+
+    // handleMouseDownAbout = (e) => {
+    //     console.log(this.state.aboutVisible);
+    //     this.setState({
+    //         aboutVisible: !this.state.aboutVisible,
+    //         navVisible: true
+    //     })
+    //     console.log(this.state.aboutVisible);
+
+    // }
+
+    // handleMouseDownContact = (e) => {
+    //     console.log('clicked');
+    //     this.setState({
+    //         contactVisible: !this.state.contactVisible,
+    //         navVisible: true
+    //     })
+    // }
 
     handleMouseOver(e) {
         this.setState({
@@ -116,7 +155,9 @@ render() {
                 handleMouseDownNav={this.handleMouseDownNav} 
                 handleMouseDownAbout={this.handleMouseDownAbout} 
                 handleMouseDownContact={this.handleMouseDownContact}   
-                menuVisibility={this.state.navVisible} />
+                menuVisibility={this.state.navVisible} 
+                aboutVisibility={this.state.aboutVisible} 
+                />
             <p className="location">Melbourne</p>
 
             <Portfolio 
@@ -133,6 +174,7 @@ render() {
             handleMouseDownAbout={this.handleMouseDownAbout} 
             aboutVisibility={this.state.aboutVisible} 
             handleMouseDownContact={this.handleMouseDownContact} 
+            handleMouseDown={this.handleMouseDown}
             />
 
             <Contact 

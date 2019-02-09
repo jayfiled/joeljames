@@ -16,7 +16,7 @@ class About extends Component {
         // when you click anywhere on the background
         // if (this.props.screenSize < 982)
         //     eventOnDesktop = this.props.smallScreen;
-        console.log(this.props.handleMouseDownContact);
+        // console.log(this.props.handleMouseDownContact, this.props.handleMouseDownNav);
 
         return (
             <div id="about-page" 
@@ -27,7 +27,7 @@ class About extends Component {
                 <div className="landing-picture-background">
 
                     <div className="close" 
-                        onMouseDown={this.props.handleMouseDownNav}>
+                        onMouseDown={this.props.handleMouseDown}>
                     </div>
                     
                     <div>

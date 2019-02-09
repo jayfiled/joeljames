@@ -5,6 +5,8 @@ class Nav extends Component {
     render(props) {
         let visibility = 'hide';
         
+        // aboutVisibility is to make the about page display
+        // menuVisibility is to make the this page visible
         if (this.props.aboutVisibility || this.props.menuVisibility)
             visibility = 'show';
         
@@ -22,7 +24,10 @@ class Nav extends Component {
                 Portfolio</h1>
                 <h1 
                 onMouseDown={this.props.handleMouseDownAbout}>
-                About</h1>
+                About</h1> 
+                {/* the class on #flyoutMenu changes to 'hide'
+                which means that this.props.aboutVisibiluty and menuVisibility are falsey
+                */}
                 <h1 
                 onMouseDown={this.props.handleMouseDownContact}>
                 Contact</h1>

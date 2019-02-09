@@ -8,11 +8,9 @@
     color: white;
     font-family: 'Open Sans','Courier New', Courier, monospace;
     /* cursor: url("../resources/svgs/icons8-delete-filled.svg"), auto; */
-    /* transition: transform 0.5s cubic-bezier(1, 0.21, 1,-0.01); */
-    transition: none;
-
-
-    z-index: 5;
+    transition: transform 0.5s cubic-bezier(1, 0.21, 1,-0.01);
+    /* transition: none; */
+    /* z-index: 5; */
 }
 
 .landing-picture-background img {
@@ -77,14 +75,16 @@
     transform: translate3d(-200vw, 0, 0);
     transition: transform .67s cubic-bezier(1, 0.21, 1,-0.01);
     background-size: cover;
-    z-index: 2;
     
 }
 
 #contact-page.show {
     position: absolute;
     transform: translate3d(0, 0vh, 0);
+    /* transition: transform .67s cubic-bezier(1, 0.21, 1,-0.01); */
     background-size: cover;
+    z-index: 5;
+
 }
 
 p.go-to-contact-page {
