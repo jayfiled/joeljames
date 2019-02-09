@@ -10,7 +10,7 @@ class About extends Component {
         if (this.props.aboutVisibility)
             aboutVisibility = 'show';
         
-            let eventOnDesktop = this.props.handleMouseDownAbout;
+            // let eventOnDesktop = this.props.handleMouseDownAbout;
 
         // removes the event listener onMouseDown that slides the page away
         // when you click anywhere on the background
@@ -21,7 +21,8 @@ class About extends Component {
         return (
             <div id="about-page" 
             className={aboutVisibility}
-            onMouseDown={eventOnDesktop}>
+            // onMouseDown={eventOnDesktop}        
+            >
 
                 <div className="landing-picture-background">
 
@@ -38,7 +39,7 @@ class About extends Component {
                     <div>
                         <h1>Focus, enthusiasm, energy, commitment.</h1>
                     </div>
-                    {/* css down arrow */}
+                    <img src={require(`../resources/icons/arrow-down.png`)} alt="arrow-pointing-down"/>
 
                 </div>
 
@@ -72,7 +73,11 @@ class About extends Component {
             <div className="dont-wait paragraph-text">
 
                 <p className="what-else">What else would you like to know?</p>
-                <p className="go-to-contact-page">Get in touch</p>
+                <button 
+                className="go-to-contact-page" 
+                onMouseDown={this.props.handleMouseDownContact} 
+                >Get in touch</button>
+                
                 <img src={require(`../resources/icons/right-arrow.png`)} alt="link-to-about-page"/>
 
             </div>

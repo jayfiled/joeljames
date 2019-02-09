@@ -7,22 +7,47 @@
     max-width: 100vw;
     color: white;
     font-family: 'Open Sans','Courier New', Courier, monospace;
-    cursor: url("../resources/svgs/icons8-delete-filled.svg"), auto;
+    /* cursor: url("../resources/svgs/icons8-delete-filled.svg"), auto; */
     /* transition: transform 0.5s cubic-bezier(1, 0.21, 1,-0.01); */
     transition: none;
 
 
-    z-index: 4;
+    z-index: 5;
+}
+
+.landing-picture-background img {
+    padding-left: 2%;
+}
+
+.contact-background {
+    background: linear-gradient(0deg, rgba(40,44,52,0.8) 20%, rgba(16,29,55,0.8) 40%), linear-gradient(0deg, rgba(40,44,52,0.6) 20%, rgba(40,44,52,0.6) 20%), url(../resources/contact.jpg) center;
+    background-size: cover;
+
 }
 
 .enquiries {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     /* border: 2px solid salmon; */
     background-color: white;
     font-family: 'open sans';
+    padding: 8em;
+}
 
+.white-space-blurbs {
+    background: white;
+}
+
+.white-space-blurbs p {
+    color: #121c2d;
+    letter-spacing: 2px;
+    /* min-width: 10vw; <-- troublemaker when set to max-width */
+    max-width: 45%;
+    max-height: 80%;
+    font-size: 1.5em;
+        /* border: 5px solid salmon; */
 
 }
 
@@ -42,10 +67,14 @@
     padding: 0 50px 25px 0;
 }
 
+.bold-text {
+    font-weight: 900;
+}
+
 #contact-page.hide {
     /* Comment the below line out to work on about page */
     position: fixed;
-    /* transform: translate3d(-200vw, 0, 0); */
+    transform: translate3d(-200vw, 0, 0);
     transition: transform .67s cubic-bezier(1, 0.21, 1,-0.01);
     background-size: cover;
     z-index: 2;
@@ -56,13 +85,22 @@
     position: absolute;
     transform: translate3d(0, 0vh, 0);
     background-size: cover;
-}  
+}
+
+p.go-to-contact-page {
+    font-size: 2em;
+    color: #d63031;
+    font-weight: bolder;
+}
 
 .fa {
     font-size: 2.5em;
     color: rgba(47, 54, 64,1.0);
 }
 
+.dont-wait a {
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 450px) {
 

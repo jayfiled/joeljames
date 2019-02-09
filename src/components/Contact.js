@@ -12,18 +12,19 @@ class Contact extends Component {
         if (this.props.contactVisibility)
             contactVisibility = 'show';
         
-            let eventOnDesktop = this.props.handleMouseDownContact;
+            // let eventOnDesktop = this.props.handleMouseDownContact;
 
-        if (this.props.screenSize < 982)
-            eventOnDesktop = this.props.smallScreen;
+        // if (this.props.screenSize < 982)
+        //     eventOnDesktop = this.props.smallScreen;
         // console.log(window.screen.width);
 
         return (
             <div id="contact-page" 
             className={contactVisibility}
-            onMouseDown={eventOnDesktop}>
+            // onMouseDown={eventOnDesktop}
+            >
 
-                <div className="landing-picture-background">
+                <div className="landing-picture-background contact-background">
 
                     <div className="close" 
                         onMouseDown={this.props.handleMouseDownContact}>
@@ -38,6 +39,7 @@ class Contact extends Component {
                     <div>
                         <h1>If I can help you with a project, please get in touch</h1>
                     </div>
+                    <img src={require(`../resources/icons/arrow-down.png`)} alt="arrow-pointing-down"/>
                     {/* css down arrow */}
 
                 </div>
@@ -52,7 +54,7 @@ class Contact extends Component {
                     </div>
                 </div>
                 <div className="enquiries">
-                        <div className='item white-space-blurb'>
+                        <div className='item white-space-blurbs'>
                             <p className="bold-text">Enquiries</p>
                             <p>joel.james@outlook.com</p>
                         </div>
@@ -66,7 +68,8 @@ class Contact extends Component {
 
                 <div className="dont-wait paragraph-text">
                     <p className="what-else">What are you waiting for?</p>
-                    <p className="go-to-contact-page">Get in touch</p>
+                    <a href="mailto:joel.james@outlook.com"><p className="go-to-contact-page">Get in touch</p></a>
+                    <a href="mailto:joel.james@outlook.com"><img src={require(`../resources/icons/right-arrow.png`)} alt="link-to-about-page"/></a>
                 </div>
                
                 </div>
