@@ -7,7 +7,7 @@
     max-width: 100vw;
     color: white;
     font-family: 'Open Sans','Courier New', Courier, monospace;
-    cursor: url("../resources/svgs/icons8-delete-filled.svg"), auto;
+    /* cursor: url("../resources/svgs/icons8-delete-filled.svg"), auto; */
     /* transition: transform 0.5s cubic-bezier(1, 0.21, 1,-0.01); */
     transition: none;
 

@@ -64,6 +64,7 @@ class Hello extends Component {
     }
 
     handleMouseDownContact = (e) => {
+        console.log('clicked');
         this.setState({
             contactVisible: !this.state.contactVisible,
             navVisible: true

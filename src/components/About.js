@@ -16,7 +16,7 @@ class About extends Component {
         // when you click anywhere on the background
         // if (this.props.screenSize < 982)
         //     eventOnDesktop = this.props.smallScreen;
-        // console.log(window.screen.width);
+        console.log(this.props.handleMouseDownContact);
 
         return (
             <div id="about-page" 
@@ -32,7 +32,9 @@ class About extends Component {
                     
                     <div>
                         <h3>About me</h3>
-                        <MenuForAbout />
+                        <MenuForAbout 
+                        handleMouseDownContact={this.props.handleMouseDownContact} 
+                        />
 
                     </div>
 
@@ -77,7 +79,7 @@ class About extends Component {
                 className="go-to-contact-page" 
                 onMouseDown={this.props.handleMouseDownContact} 
                 >Get in touch</button>
-                
+
                 <img src={require(`../resources/icons/right-arrow.png`)} alt="link-to-about-page"/>
 
             </div>
