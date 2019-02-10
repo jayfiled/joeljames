@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import '../css/Contact.css';
 import 'font-awesome/css/font-awesome.min.css';
+import MenuForContact from './MenuForContact';
+import '../css/MenuForAbout.css';
 
 
 
@@ -38,6 +40,8 @@ class Contact extends Component {
 
                     <div>
                         <h1>If I can help you with a project, please get in touch</h1>
+                        <MenuForContact handleMouseDownContact={this.props.handleMouseDownContact}
+                        />
                     </div>
                     <img src={require(`../resources/icons/arrow-down.png`)} alt="arrow-pointing-down"/>
                     {/* css down arrow */}
