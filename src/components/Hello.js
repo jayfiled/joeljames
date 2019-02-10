@@ -63,7 +63,8 @@ class Hello extends Component {
     toggleContact = () => {
         this.setState({
             navVisible: true,
-            contactVisible: !this.state.contactVisible
+            contactVisible: !this.state.contactVisible,
+            aboutVisible: false
         });
     }
 
@@ -88,29 +89,32 @@ class Hello extends Component {
         e.stopPropagation();
     }
 
-    // testing to see whether there are issues using arrow functions and binding
-    // DON't use a variety of binding the 'this' object and using arrow functions to reference
-    // the current function scope
+    /* 
+    testing to see whether there are issues using arrow functions and binding
+    DON't use a variety of binding the 'this' object and using arrow functions to reference
+    the current function scope
+    */
 
-    // handleMouseDownAbout = (e) => {
-    //     console.log(this.state.aboutVisible);
-    //     this.setState({
-    //         aboutVisible: !this.state.aboutVisible,
-    //         navVisible: true
-    //     })
-    //     console.log(this.state.aboutVisible);
+   /* handleMouseDownAbout = (e) => {
+        console.log(this.state.aboutVisible);
+        this.setState({
+            aboutVisible: !this.state.aboutVisible,
+            navVisible: true
+        })
+        console.log(this.state.aboutVisible);
 
-    // }
+    }
 
-    // handleMouseDownContact = (e) => {
-    //     console.log('clicked');
-    //     this.setState({
-    //         contactVisible: !this.state.contactVisible,
-    //         navVisible: true
-    //     })
-    // }
-
-    handleMouseOver(e) {
+    handleMouseDownContact = (e) => {
+        console.log('clicked');
+        this.setState({
+            contactVisible: !this.state.contactVisible,
+            navVisible: true
+        })
+    }
+*/
+    
+handleMouseOver(e) {
         this.setState({
             screenSize: 421
         })

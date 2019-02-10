@@ -71,6 +71,12 @@ class Contact extends Component {
                     <a href="mailto:joel.james@outlook.com"><p className="go-to-contact-page">Get in touch</p></a>
                     <a href="mailto:joel.james@outlook.com"><img src={require(`../resources/icons/right-arrow.png`)} alt="link-to-about-page"/></a>
                 </div>
+
+                <div className="paragraph-text blurb contact">
+
+                    <p>Joel James</p>
+
+                </div>
                
                 </div>
         )

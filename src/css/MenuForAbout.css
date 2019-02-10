@@ -3,7 +3,7 @@
 	justify-self: flex-end;
 	max-width: 20%;
 	/* border: 2px solid orange; */
-	cursor: url("../resources/svgs/icons8-checkmark.svg"), auto;
+	cursor: pointer;
 	/* z-index: 4; */
 	/* position: absolute; */
 	/* top: ; */
@@ -70,7 +70,9 @@ button.bring-up-navA {
 }
 
 @media only screen and (max-width: 982px) {
+
 	#lineButtonA {
+		display: none;
 		position: absolute;
 		top: 5%;
 	}

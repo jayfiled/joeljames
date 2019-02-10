@@ -81,9 +81,9 @@
 #contact-page.show {
     position: absolute;
     transform: translate3d(0, 0vh, 0);
-    /* transition: transform .67s cubic-bezier(1, 0.21, 1,-0.01); */
+    transition: transform 1s cubic-bezier(1, 0.21, 1,-0.01);
     background-size: cover;
-    z-index: 5;
+    z-index: 6;
 
 }
 
@@ -91,6 +91,10 @@ p.go-to-contact-page {
     font-size: 2em;
     color: #d63031;
     font-weight: bolder;
+}
+
+.contact {
+    height: 2000px;
 }
 
 .fa {
@@ -124,6 +128,7 @@ p.go-to-contact-page {
         padding-right: 15px;
     }
     }
+    
 
 @media only screen and (max-width: 982px) {
     #portfolio-page {

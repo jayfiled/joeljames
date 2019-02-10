@@ -27,13 +27,12 @@ class About extends Component {
                 <div className="landing-picture-background">
 
                     <div className="close" 
-                        onMouseDown={this.props.handleMouseDown}>
+                        onMouseDown={this.props.handleMouseDownAbout}>
                     </div>
                     
                     <div>
                         <h3>About me</h3>
-                        <MenuForAbout 
-                        handleMouseDownContact={this.props.handleMouseDownContact} 
+                        <MenuForAbout handleMouseDownAbout={this.props.handleMouseDownAbout}
                         />
 
                     </div>
