@@ -61,6 +61,8 @@ class Hello extends Component {
     }
 
     toggleContact = () => {
+        window.scrollTo(0, 0)
+        
         this.setState({
             navVisible: true,
             contactVisible: !this.state.contactVisible,
