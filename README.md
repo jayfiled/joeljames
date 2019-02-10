@@ -72,7 +72,9 @@
     - [x] **Fix broken menu slider** 
     - [x] **Landing page scrolls on iPhone safari and chrome**
     - [x] **Fix horrible animations on about page reveal and hide**🔥
-    - [ ] **Fix navigation on About page after you've scrolled - needs another way to navigate**
-    - [ ] **Contact page needs a back event handler**
-    - [ ] **About page needs event handler to switch the contact page's .show class**
-    - [ ] **Need some fixed menus on About and contact for navigation**
+    - [x] **Fix navigation on About page after you've scrolled - needs another way to navigate**
+    - [x] **Contact page needs a back event handler**
+    - [x] **About page needs event handler to switch the contact page's .show class**
+    - [x] **Need some fixed menus on About and contact for navigation**
+    - [ ] **Navigation is a little jerky on about and contact**
+    - [ ] **Fixed menus would be good...**
