@@ -31,7 +31,9 @@ class Portfolio extends Component {
                         killLinkOnSearch={this.props.killLinkOnSearch}
                         />
                     </div>
-                    <PortCardList cardData={this.props.cardData}/>              
+                    <PortCardList cardData={this.props.cardData} 
+                    killLinkOnSearch={this.props.killLinkOnSearch} 
+                    />              
                 </div>
         )
     }

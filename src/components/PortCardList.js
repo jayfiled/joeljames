@@ -3,7 +3,7 @@ import PortCard from './PortCard';
 import '../css/PortCard.css';
 import '../css/PortCardList.css';
 
-const PortCardList = ({cardData}) => {
+const PortCardList = ({cardData, killLinkOnSearch}) => {
     const portCardArray = cardData.map((element, index) => 
     
     <PortCard 
@@ -14,10 +14,11 @@ const PortCardList = ({cardData}) => {
     source={element.source} 
     picPath={element.picPath} 
     impactStatement={element.impactStatement} 
+    killLinkOnSearch={killLinkOnSearch} 
     />
     
     );
-    // console.log(portCardArray);
+    console.log(killLinkOnSearch);
 
     return portCardArray
 

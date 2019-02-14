@@ -1,7 +1,7 @@
 ## About Joel James - portfolio, about contact.. blog?
 
 ### Project To-do
-- [x] [**Build landing page**](https://jayfiled.github.io/joeljames/)
+- [x] [**Build landing page**](https://joel-james.netlify.com/)
 - [x] **Slide over menu nav** 
 - [x] **Page for portfolio**
 - [x] **Page for about**   <sup>~ Completed, now tweaking ~</sup>
@@ -15,11 +15,11 @@
     - [x] **Menu icon that, when clicked, slides over a menu navigation**
 - [x] **Slide over menu nav**
     - [x] **Remove landing page elements before nav page slides over**
-    - [ ] **Add headings as links**
+    - [x] **Add headings as links**
          - [x] **Portfolio**
          - [x] **About**  
-            - [ ] **Need to add link to bottom arrow to contact page**
-         - [ ] **Contact** <sup>~ In progress ~</sup>
+            - [x] **Need to add link to bottom arrow to contact page**
+         - [x] **Contact**
 - [ ] **Portfolio page** 
     - [x] **Positioned below the viewport - slide up into viewport**
     - [x] **Cards with a picture and project information**
@@ -33,10 +33,10 @@
 - [ ] **About page**
     - [x] **Large image taking up 100% width. 120% height**
     - [x] **same style and color as the landing page without the color gradient**
-    - [ ] **Scrollable (with an icon to show that it is, arrow)**
+    - [x] **Scrollable (with an icon to show that it is, arrow)**
     - [ ] **As you scroll text fades in**
-    - [ ] **General enquiries, address, social media icons**<sup>~ In progress ~</sup>
-    - [ ] **What are you waiting for?  Get in touch text** 
+    - [x] **General enquiries, address, social media icons**
+    - [x] **What are you waiting for?  Get in touch text** 
 
 ### Other to-dos
 - [ ] **General**
@@ -51,11 +51,11 @@
     - [ ] **Move the centered main text down to same level as burger menu**
     - [ ] **Move the location closer to the main heading**
     - [ ] **Decrease the size of the burger menu**
-    - [x] **Get an tick icon for hover over links that complements the cross to go back**
+    - [x] **Get a tick icon for hover over links that complements the cross to go back** <sup>~Did it, but reverted the change as it looked tacky~</sup>
     - [x] **Fix the event handler that fires when you click on the input on desktop**
     - [x] **Make cards wider on mobile**
     - [ ] **Fix the cross jumping around when typing into the input on portfolio**
-    - [ ] **Make the animations less jittery**
+    - [ ] **Fix the animations on show for About and contact**
 
       - [How to - component](https://gist.github.com/JoeTheDave/5d78f9aae295b2f19c8c3f96c0d0ec75/raw/2d0d946cceb0ca32137d42ead09a9d227a2df9d0/react-css-transition.js)
 

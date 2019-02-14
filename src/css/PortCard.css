@@ -17,7 +17,7 @@
     margin: .5em 4em .5em 4em;
     /* border: 2px solid orange;  */
     cursor: url("../resources/svgs/icons8-checkmark.svg"), auto;
-    z-index: 5;
+    z-index: 6;
   }
   
   .card-top {
