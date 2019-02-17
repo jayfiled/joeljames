@@ -41,7 +41,9 @@ class Contact extends Component {
 
                     <div>
                         <h1>If I can help you with a project, please get in touch</h1>
-                        <MenuForContact handleMouseDownContact={this.props.handleMouseDownContact}
+                        <MenuForContact 
+                        style={{cursor: "pointer"}} 
+                        handleMouseDownContact={this.props.handleMouseDownContact}
                         />
                     </div>
                     <img src={require(`../resources/icons/arrow-down.png`)} alt="arrow-pointing-down"/>
