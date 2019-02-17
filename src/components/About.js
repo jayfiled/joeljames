@@ -26,7 +26,9 @@ class About extends Component {
 
                 <div className="landing-picture-background">
 
-                    <div className="close" 
+                    <div 
+                    style={{cursor: "pointer"}} 
+                    className="close" 
                         onMouseDown={this.props.handleMouseDownAbout}>
                     </div>
                     
@@ -75,6 +77,7 @@ class About extends Component {
 
                 <p className="what-else">What else would you like to know?</p>
                 <button 
+                style={{cursor: "pointer"}}
                 className="go-to-contact-page" 
                 onMouseDown={this.props.handleMouseDownContact} 
                 >Get in touch</button>

@@ -45,7 +45,7 @@
 
 #flyoutMenu h1:hover {
     color: black;
-    cursor: url("../resources/svgs/icons8-checkmark.svg"), auto;
+    /* cursor: url("../resources/svgs/icons8-checkmark.svg"), auto; */
     /* cursor: pointer; */
 
 }

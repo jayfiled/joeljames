@@ -23,7 +23,9 @@ class Portfolio extends Component {
             className={portVisibility}
             onMouseDown={eventOnDesktop}>
                     <div className="back-and-search">
-                        <div className="close" 
+                        <div
+                        style={{cursor: "pointer"}} 
+                        className="close" 
                         onMouseDown={this.props.handleMouseDownNav}>
                         </div>
                          <SearchBox 

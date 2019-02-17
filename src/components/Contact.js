@@ -29,6 +29,7 @@ class Contact extends Component {
                 <div className="landing-picture-background contact-background">
 
                     <div className="close" 
+                        style={{cursor: "pointer"}}
                         onMouseDown={this.props.handleMouseDownContact}>
                     </div>
 
