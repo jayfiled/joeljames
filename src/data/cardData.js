@@ -4,18 +4,36 @@ const cardData = [
         lang: [
             '#ReactJS',
             '#JavaScript',
+            '#node',
+            '#express',
+            '#tachyons',
+            '#fetch',
+            '#AJAX'
+
+        ],
+        name: 'Facial recognition app - in progress',
+        url: 'https://facial-recog.netlify.com/',
+        source: 'https://github.com/jayfiled/smartBrain',
+        picPath: 'facialRecognition',
+        impactStatement: "A full-stack reactJS site that uses AI to detect faces in photos from clarifAI's API"
+    },
+    {
+        id: 2,
+        lang: [
+            '#ReactJS',
+            '#JavaScript',
             '#HTML',
             '#CSS Flexbox',
             '#CSS Grid'
         ],
-        name: 'Personal Portfolio',
-        url: 'https://jayfiled.github.io/joeljames/',
+        name: 'This site..',
+        url: 'https://joel-james.netlify.com',
         source: 'https://github.com/jayfiled/joeljames',
         picPath: 'portfolio',
         impactStatement: "A React portfolio to showcase my recent work and a way of getting in touch"
     },
     {
-        id: 2,
+        id: 3,
         lang: [
             '#DOM manip',
             '#JavaScript',
@@ -30,7 +48,7 @@ const cardData = [
         impactStatement: "My kids needed to brush up on their 🎌, so I solved that problem with this app"
     },
     {
-        id: 3,
+        id: 4,
         lang: [
             '#ReactJS',
             '#JavaScript',
@@ -46,7 +64,7 @@ const cardData = [
         impactStatement: "Fetch JSON from a Robohash API and feed in via props to a list of cards"
     },
     {
-        id: 4,
+        id: 5,
         lang: [
             '#JavaScript',
             '#HTML',
@@ -59,7 +77,7 @@ const cardData = [
         impactStatement: "Created as a place to quickly check and consolidate JS learnings"
     },
     {
-        id: 5,
+        id: 6,
         lang: [
             '#ReactJS',
             '#GatsbyJS',
@@ -74,7 +92,7 @@ const cardData = [
         impactStatement: "Built so I can teach what I learn and have a log for my progress"
     },
     {
-        id: 6,
+        id: 7,
         lang: [
             '#HTML',
             '#CSS Flexbox',
@@ -87,7 +105,7 @@ const cardData = [
         impactStatement: "Showcases my minimalist and clean design approach"
     },
     {
-        id: 8,
+        id: 9,
         lang: [
             '#DOM manip',
             '#JavaScript',
@@ -101,7 +119,7 @@ const cardData = [
         impactStatement: "Solved the problem of missing paper lists"
     },
     {
-        id: 7,
+        id: 10,
         lang: [
             '#HTML',
             '#CSS Flexbox'
