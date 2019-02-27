@@ -3,13 +3,13 @@ import '../css/PortCard.css';
 import 'font-awesome/css/font-awesome.min.css';
 
 
-const PortCard = ({ id, lang, name, url, source, picPath, impactStatement, killLink }) => {
+const PortCard = ({ id, lang, name, url, source, picPath, impactStatement, killLinkOnSearch }) => {
 
-// console.log(url);
+console.log(killLinkOnSearch);
 
     return (
         <div id="card-container" 
-        onMouseOver={killLink}>
+        onMouseEnter={killLinkOnSearch}>
             <div className="card-top">
                 <div className="tut-lang"><sup>{lang}</sup></div>
                 <div className="card-title">{name}</div>

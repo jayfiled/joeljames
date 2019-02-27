@@ -49,9 +49,9 @@ class About extends Component {
                 <div className="paragraph-text white-space-blurb">
                     <p>Joel James is a User Experience and
                     front end developer based in Melbourne. 
-                    He plans, creates and grows authentic digital 
-                    experiences for companies and individuals 
-                    looking to have a positive impact 
+                    He enables companies and individuals 
+                    through the planning and creation of digital experiences 
+                    so they can have a great impact 
                     on their customers lives.</p>
                 </div>
 
