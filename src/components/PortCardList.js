@@ -14,7 +14,7 @@ const PortCardList = ({cardData, killLinkOnSearch}) => {
     source={element.source} 
     picPath={element.picPath} 
     impactStatement={element.impactStatement} 
-    // killLinkOnSearch={killLinkOnSearch} 
+    killLinkOnSearch={killLinkOnSearch} 
     />
     
     );

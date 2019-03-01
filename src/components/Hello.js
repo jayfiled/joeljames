@@ -91,6 +91,12 @@ class Hello extends Component {
         e.stopPropagation();
     }
 
+    handleEnter(e) {
+        console.log('Pressed enter');
+        if (e.charCode === 13)
+        return this.toggleMenu()
+    }
+
     /* 
     testing to see whether there are issues using arrow functions and binding
     DON't use a variety of binding the 'this' object and using arrow functions to reference
@@ -156,7 +162,9 @@ render() {
                 <h1>Front End Web Developer</h1>
             </div>
 
-            <Menu handleMouseDown={this.handleMouseDown} />
+            <Menu handleMouseDown={this.handleMouseDown} 
+            handleEnter={this.handleEnter} />
+
             <Nav handleMouseDown={this.handleMouseDown}
                 handleMouseDownNav={this.handleMouseDownNav} 
                 handleMouseDownAbout={this.handleMouseDownAbout} 
