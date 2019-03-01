@@ -92,8 +92,8 @@ class Hello extends Component {
     }
 
     handleEnter(e) {
-        console.log('Pressed enter');
-        if (e.charCode === 13)
+console.log(e.charCode  );
+        if (e.charCode === 0)
         return this.toggleMenu()
     }
 

@@ -16,7 +16,7 @@
     /* margin-top: 1em; */
     margin: .5em 4em .5em 4em;
     /* border: 2px solid orange;  */
-    cursor: url("../resources/svgs/icons8-checkmark.svg"), auto;
+    cursor: pointer;
     z-index: 6;
   }
   
@@ -93,7 +93,7 @@
 
   .card-bottom a {
     overflow: hidden;
-    cursor: url("../resources/svgs/icons8-checkmark.svg"), auto;
+    cursor: pointer;
 
   }
 

@@ -5,7 +5,7 @@ class Menu extends Component {
     render(props) {
         return (
             <button type="button" id="lineButton" className="bring-up-nav" 
-            onChange={this.props.handleEnter}   
+            onKeyDown={this.props.handleEnter}   
             onMouseDown={this.props.handleMouseDown} >
                 <div id="nav-container">
                     <div className="toggle-icon">
