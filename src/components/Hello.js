@@ -142,6 +142,18 @@ handleMouseOver(e) {
     onSearchChange = (e) => {
         this.setState({ searchField: e.target.value })
     }
+
+    //  a function that removes the onMouseDown={eventOnDesktop} from the #portfolio-page div
+    RemovePageBackHandler = () => {
+    console.log(document.getElementById('portfolio-page'))
+        // document.getElementById('portfolio-page').removeEventListener('onMouseDown', document.eventOnDesktop)
+    }
+
+    AddPageBackHandler = () => {
+        console.log('Mouse moved out');
+        // document.getElementById('portfolio-page').AddEventListener('onMouseDown', document.eventOnDesktop)
+
+    }
         
 render() {
 
@@ -181,7 +193,8 @@ render() {
                 searchChange={this.onSearchChange} 
                 smallScreen={this.smallScreen} 
                 screenSize={this.state.screenSize} 
-                killLinkOnSearch={this.killLinkOnSearch} 
+                RemovePageBackHandler={this.RemovePageBackHandler} 
+                AddPageBackHandler={this.AddPageBackHandler} 
                 />
 
             <About 

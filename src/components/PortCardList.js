@@ -3,7 +3,7 @@ import PortCard from './PortCard';
 import '../css/PortCard.css';
 import '../css/PortCardList.css';
 
-const PortCardList = ({cardData, killLinkOnSearch}) => {
+const PortCardList = ({cardData, RemovePageBackHandler, AddPageBackHandler}) => {
     const portCardArray = cardData.map((element, index) => 
     
     <PortCard 
@@ -14,11 +14,12 @@ const PortCardList = ({cardData, killLinkOnSearch}) => {
     source={element.source} 
     picPath={element.picPath} 
     impactStatement={element.impactStatement} 
-    killLinkOnSearch={killLinkOnSearch} 
+    RemovePageBackHandler={RemovePageBackHandler} 
+    AddPageBackHandler={AddPageBackHandler}  
     />
     
     );
-    // console.log(killLinkOnSearch);
+    
 
     return portCardArray
 
