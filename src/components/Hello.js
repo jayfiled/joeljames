@@ -18,7 +18,8 @@ class Hello extends Component {
           aboutVisible: false,
           contactVisible: false,
           searchField: '',
-          screenSize: window.screen.width
+          screenSize: window.screen.width,
+          portCardBeingHovered: false
         };
      
         this.handleMouseDown = this.handleMouseDown.bind(this);
@@ -32,6 +33,9 @@ class Hello extends Component {
 
         this.handleMouseDownContact = this.handleMouseDownContact.bind(this);
         this.toggleContact = this.toggleContact.bind(this);
+
+        this.handlePortCardBeingHovered = this.handlePortCardBeingHovered.bind(this);
+        this.togglePortCardBeingHovered = this.togglePortCardBeingHovered.bind(this);
 
         // this.handleMouseOver = this.handleMouseOver.bind(this);
         // this.killLinkOnSearch = this.killLinkOnSearch.bind(this);
@@ -70,6 +74,12 @@ class Hello extends Component {
         });
     }
 
+    togglePortCardBeingHovered = () => {
+        this.setState({
+            portCardBeingHovered: !this.state.portCardBeingHovered
+        });
+    }
+
 
     handleMouseDown(e) {
         this.toggleMenu();
@@ -91,10 +101,19 @@ class Hello extends Component {
         e.stopPropagation();
     }
 
-    handleEnter(e) {
+    handleEnter = (e) => {
 console.log(e.charCode  );
         if (e.charCode === 0)
-        return this.toggleMenu()
+        this.setState(
+            {
+                navVisible: true
+            }
+        )     
+    }
+
+    handlePortCardBeingHovered(e) {
+        this.togglePortCardBeingHovered();
+        e.stopPropagation();
     }
 
     /* 
@@ -144,15 +163,20 @@ handleMouseOver(e) {
     }
 
     //  a function that removes the onMouseDown={eventOnDesktop} from the #portfolio-page div
+
+    // except it doesn't.... need to fix
     RemovePageBackHandler = () => {
-    console.log(document.getElementById('portfolio-page'))
-        // document.getElementById('portfolio-page').removeEventListener('onMouseDown', document.eventOnDesktop)
+    console.log('Mouse moved in');
+
+        document.getElementById('portfolio-page').removeEventListener('onMouseDown', this.handleMouseDownNav)
+    console.log('There should be no event handler: ', document.getElementById('portfolio-page'));
+
     }
 
     AddPageBackHandler = () => {
         console.log('Mouse moved out');
-        // document.getElementById('portfolio-page').AddEventListener('onMouseDown', document.eventOnDesktop)
-
+        document.getElementById('portfolio-page').addEventListener('onMouseDown', this.handleMouseDownNav)
+        console.log('There should now be an event handler: ', document.getElementById('portfolio-page'));
     }
         
 render() {
@@ -193,6 +217,7 @@ render() {
                 searchChange={this.onSearchChange} 
                 smallScreen={this.smallScreen} 
                 screenSize={this.state.screenSize} 
+                killLinkOnSearch={this.killLinkOnSearch} 
                 RemovePageBackHandler={this.RemovePageBackHandler} 
                 AddPageBackHandler={this.AddPageBackHandler} 
                 />

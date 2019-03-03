@@ -10,7 +10,8 @@ const PortCard = ({ id, lang, name, url, source, picPath, impactStatement, Remov
     return (
         <div id="card-container" 
         onMouseEnter={RemovePageBackHandler} 
-        onMouseOut={AddPageBackHandler}>
+        onMouseOut={AddPageBackHandler}
+        >
             <div className="card-top" >
                 <div className="tut-lang"><sup>{lang}</sup></div>
                 <div className="card-title">{name}</div>
