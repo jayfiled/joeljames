@@ -42,6 +42,7 @@ class Hello extends Component {
       }
 
     toggleMenu = () => {
+
         this.setState({
             navVisible: !this.state.navVisible,
             portVisible: false,
@@ -84,11 +85,21 @@ class Hello extends Component {
     handleMouseDown(e) {
         this.toggleMenu();
         e.stopPropagation();
+        
     }
 
     handleMouseDownNav(e) {
+        const gitHub = document.querySelector('.fa');
+        const search = document.querySelector('input');
+        const image = document.querySelector('img');
+        const links = document.querySelector('a');
+        console.log(search, gitHub, image, links)
+        console.log(e.target)
+        if (e.target !== search)
+         {
         this.togglePort();
         e.stopPropagation();
+         }
     }
 
     handleMouseDownAbout(e) {
@@ -166,17 +177,17 @@ handleMouseOver(e) {
 
     // except it doesn't.... need to fix
     RemovePageBackHandler = () => {
-    console.log('Mouse moved in');
+    // console.log('Mouse moved in');
 
-        document.getElementById('portfolio-page').removeEventListener('onMouseDown', this.handleMouseDownNav)
-    console.log('There should be no event handler: ', document.getElementById('portfolio-page'));
+    //     document.getElementById('portfolio-page').removeEventListener('onMouseDown', this.handleMouseDownNav)
+    //     console.log('There should be no event handler: ', document.getElementById('portfolio-page'));
 
     }
 
     AddPageBackHandler = () => {
-        console.log('Mouse moved out');
-        document.getElementById('portfolio-page').addEventListener('onMouseDown', this.handleMouseDownNav)
-        console.log('There should now be an event handler: ', document.getElementById('portfolio-page'));
+        // console.log('Mouse moved out');
+        // document.getElementById('portfolio-page').addEventListener('onMouseDown', this.handleMouseDownNav)
+        // console.log('There should now be an event handler: ', document.getElementById('portfolio-page'));
     }
         
 render() {

@@ -17,11 +17,11 @@ const PortCard = ({ id, lang, name, url, source, picPath, impactStatement, Remov
                 <div className="card-title">{name}</div>
                 <div className="card-ref">
                     <p>{impactStatement}</p>
-                    <a href={`${source}`} title="Click to view source"><i className="fa fa-github"></i></a>
+                    <a href={`#`} title="Click to view source"><i className="fa fa-github"></i></a>
                 </div>
             </div>
             <div className="card-bottom">
-                <a href={`${url}`} title="Click to view site"><img src={require(`../resources/portPics/${picPath}.png`)} alt="portfolio-site-snapshot"/></a>
+                <a href={`#`} title="Click to view site"><img src={require(`../resources/portPics/${picPath}.png`)} alt="portfolio-site-snapshot"/></a>
             </div>
       </div>    
     );
