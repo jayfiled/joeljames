@@ -54,7 +54,7 @@ class Contact extends Component {
                 <div className="contact-addresses">
                     <div className="paragraph-text white-space-blurb">
                         <p> I work with companies of all shapes and sizes from all walks
-                            of life.  If there's a project that you think we would be a good 
+                            of life.  If there's a project that you think I would be a good 
                             fit for, get in touch.  If you're not sure, get in touch anyway.
                             I can shed light on the process.
                         </p>

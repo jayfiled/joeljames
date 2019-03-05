@@ -3,14 +3,16 @@ import '../css/PortCard.css';
 import 'font-awesome/css/font-awesome.min.css';
 
 
-const PortCard = ({ id, lang, name, url, source, picPath, impactStatement, killLink }) => {
+const PortCard = ({ id, lang, name, url, source, picPath, impactStatement, RemovePageBackHandler, AddPageBackHandler}) => {
 
-// console.log(url);
+// console.log(killLinkOnSearch);
 
     return (
         <div id="card-container" 
-        onMouseOver={killLink}>
-            <div className="card-top">
+        onMouseEnter={RemovePageBackHandler} 
+        onMouseOut={AddPageBackHandler}
+        >
+            <div className="card-top" >
                 <div className="tut-lang"><sup>{lang}</sup></div>
                 <div className="card-title">{name}</div>
                 <div className="card-ref">
@@ -19,7 +21,7 @@ const PortCard = ({ id, lang, name, url, source, picPath, impactStatement, killL
                 </div>
             </div>
             <div className="card-bottom">
-                <a href={`${url}`} ><img src={require(`../resources/portPics/${picPath}.png`)} alt="portfolio-site-snapshot"/></a>
+                <a href={`${url}`} title="Click to view site"><img src={require(`../resources/portPics/${picPath}.png`)} alt="portfolio-site-snapshot"/></a>
             </div>
       </div>    
     );

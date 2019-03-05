@@ -26,18 +26,24 @@ class Nav extends Component {
 
                 <h1 
                 style={{cursor: "pointer"}}
-                onMouseDown={this.props.handleMouseDownNav}>
+                onMouseDown={this.props.handleMouseDownNav} 
+                tabIndex="0"                 
+                > 
                 Portfolio</h1>
                 <h1 
                 style={{cursor: "pointer"}} 
-                onMouseDown={this.props.handleMouseDownAbout}>
+                onMouseDown={this.props.handleMouseDownAbout} 
+                tabIndex="0" 
+                >
                 About</h1> 
                 {/* the class on #flyoutMenu changes to 'hide'
                 which means that this.props.aboutVisibiluty and menuVisibility are falsey
                 */}
                 <h1 
                 style={{cursor: "pointer"}} 
-                onMouseDown={this.props.handleMouseDownContact}>
+                onMouseDown={this.props.handleMouseDownContact} 
+                tabIndex="0"
+                >
                 Contact</h1>
             </div>
         )

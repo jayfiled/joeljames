@@ -18,7 +18,8 @@ class Hello extends Component {
           aboutVisible: false,
           contactVisible: false,
           searchField: '',
-          screenSize: window.screen.width
+          screenSize: window.screen.width,
+          portCardBeingHovered: false
         };
      
         this.handleMouseDown = this.handleMouseDown.bind(this);
@@ -32,6 +33,9 @@ class Hello extends Component {
 
         this.handleMouseDownContact = this.handleMouseDownContact.bind(this);
         this.toggleContact = this.toggleContact.bind(this);
+
+        this.handlePortCardBeingHovered = this.handlePortCardBeingHovered.bind(this);
+        this.togglePortCardBeingHovered = this.togglePortCardBeingHovered.bind(this);
 
         // this.handleMouseOver = this.handleMouseOver.bind(this);
         // this.killLinkOnSearch = this.killLinkOnSearch.bind(this);
@@ -70,6 +74,12 @@ class Hello extends Component {
         });
     }
 
+    togglePortCardBeingHovered = () => {
+        this.setState({
+            portCardBeingHovered: !this.state.portCardBeingHovered
+        });
+    }
+
 
     handleMouseDown(e) {
         this.toggleMenu();
@@ -88,6 +98,21 @@ class Hello extends Component {
 
     handleMouseDownContact(e) {
         this.toggleContact();
+        e.stopPropagation();
+    }
+
+    handleEnter = (e) => {
+console.log(e.charCode  );
+        if (e.charCode === 0)
+        this.setState(
+            {
+                navVisible: true
+            }
+        )     
+    }
+
+    handlePortCardBeingHovered(e) {
+        this.togglePortCardBeingHovered();
         e.stopPropagation();
     }
 
@@ -136,6 +161,23 @@ handleMouseOver(e) {
     onSearchChange = (e) => {
         this.setState({ searchField: e.target.value })
     }
+
+    //  a function that removes the onMouseDown={eventOnDesktop} from the #portfolio-page div
+
+    // except it doesn't.... need to fix
+    RemovePageBackHandler = () => {
+    console.log('Mouse moved in');
+
+        document.getElementById('portfolio-page').removeEventListener('onMouseDown', this.handleMouseDownNav)
+    console.log('There should be no event handler: ', document.getElementById('portfolio-page'));
+
+    }
+
+    AddPageBackHandler = () => {
+        console.log('Mouse moved out');
+        document.getElementById('portfolio-page').addEventListener('onMouseDown', this.handleMouseDownNav)
+        console.log('There should now be an event handler: ', document.getElementById('portfolio-page'));
+    }
         
 render() {
 
@@ -156,7 +198,9 @@ render() {
                 <h1>Front End Web Developer</h1>
             </div>
 
-            <Menu handleMouseDown={this.handleMouseDown} />
+            <Menu handleMouseDown={this.handleMouseDown} 
+            handleEnter={this.handleEnter} />
+
             <Nav handleMouseDown={this.handleMouseDown}
                 handleMouseDownNav={this.handleMouseDownNav} 
                 handleMouseDownAbout={this.handleMouseDownAbout} 
@@ -174,6 +218,8 @@ render() {
                 smallScreen={this.smallScreen} 
                 screenSize={this.state.screenSize} 
                 killLinkOnSearch={this.killLinkOnSearch} 
+                RemovePageBackHandler={this.RemovePageBackHandler} 
+                AddPageBackHandler={this.AddPageBackHandler} 
                 />
 
             <About 
