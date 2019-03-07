@@ -25,7 +25,7 @@ button.bring-up-navA {
     border: none;
 }
 
-#nav-containerA{
+.nav-containerA{
 	align-self: flex-end;
 	height: 20%;
 	padding-right: 20%;

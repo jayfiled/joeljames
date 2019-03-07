@@ -2,7 +2,7 @@
     --background: white;
     --card-top: rgba(29, 209, 161,1.0);
   }
-  #card-container {
+  .card-container {
     background: var(--background);
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     position: relative;
