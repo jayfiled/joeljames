@@ -7,11 +7,11 @@ const cardData = [
             '#node',
             '#express',
             '#tachyons',
-            '#fetch',
+            '#AI',
             '#AJAX'
 
         ],
-        name: 'Facial recognition app - in progress',
+        name: "Facial recognition app - click sign in to see WIP" ,
         url: 'https://facial-recog.netlify.com/',
         source: 'https://github.com/jayfiled/smartBrain',
         picPath: 'facialRecognition',
@@ -19,6 +19,39 @@ const cardData = [
     },
     {
         id: 2,
+        lang: [
+            '#Ruby',
+            '#Rails',
+            '#ActiveRecord',
+            '#Mapbox',
+            '#Web Sockets',
+            '#AJAX',
+            '#authentication'
+        ],
+        name: 'Katchup (mobile site)',
+        url: 'https://www.katchup.club/',
+        source: 'https://github.com/livgoodliffe/katchup',
+        picPath: 'katchup',
+        impactStatement: "Full stack Rails app - takes recommendations away from randoms and to those your trust the most - your friends"
+    },
+    {
+        id: 3,
+        lang: [
+            '#Ruby',
+            '#ES6',
+            '#ActiveRecord',
+            '#Rails',
+            '#AJAX',
+            '#authentication'
+        ],
+        name: 'Rentaholics (Desktop site)',
+        url: 'https://rentaholic.herokuapp.com/',
+        source: 'https://github.com/livgoodliffe/rentaholic',
+        picPath: 'rentaholics',
+        impactStatement: "Full stack Rails app that solves the problem of the endless consumer cycle - start renting!"
+    },
+    {
+        id: 4,
         lang: [
             '#ReactJS',
             '#JavaScript',
@@ -33,7 +66,7 @@ const cardData = [
         impactStatement: "A React portfolio to showcase my recent work and a way of getting in touch"
     },
     {
-        id: 3,
+        id: 5,
         lang: [
             '#DOM manip',
             '#JavaScript',
@@ -48,7 +81,7 @@ const cardData = [
         impactStatement: "My kids needed to brush up on their 🎌, so I solved that problem with this app"
     },
     {
-        id: 4,
+        id: 6,
         lang: [
             '#ReactJS',
             '#JavaScript',
@@ -64,20 +97,7 @@ const cardData = [
         impactStatement: "Fetch JSON from a Robohash API and feed in via props to a list of cards"
     },
     {
-        id: 5,
-        lang: [
-            '#JavaScript',
-            '#HTML',
-            '#CSS'
-        ],
-        name: 'Javascript Cheat Sheet',
-        url: 'https://jayfiled.github.io/JScheat/',
-        source: 'https://github.com/jayfiled/JScheat',
-        picPath: 'JSCheatSheet',
-        impactStatement: "Created as a place to quickly check and consolidate JS learnings"
-    },
-    {
-        id: 6,
+        id: 7,
         lang: [
             '#ReactJS',
             '#GatsbyJS',
@@ -92,34 +112,20 @@ const cardData = [
         impactStatement: "Built so I can teach what I learn and have a log for my progress"
     },
     {
-        id: 7,
+        id: 8,
         lang: [
-            '#HTML',
-            '#CSS Flexbox',
-            '#CSS Grid'
-        ],
-        name: 'Mobile phone product landing page',
-        url: 'https://jayfiled.github.io/product-landing-page/',
-        source: 'https://github.com/jayfiled/product-landing-page',
-        picPath: 'product',
-        impactStatement: "Showcases my minimalist and clean design approach"
-    },
-    {
-        id: 9,
-        lang: [
-            '#DOM manip',
             '#JavaScript',
             '#HTML',
             '#CSS'
         ],
-        name: 'DOM \'to-do\' shopping list',
-        url: 'https://jayfiled.github.io/ZeroToMasteryProjects/projects/shoppingList/index.html',
-        source: 'https://github.com/jayfiled/ZeroToMasteryProjects/blob/master/projects/shoppingList',
-        picPath: 'shoppinglist',
-        impactStatement: "Solved the problem of missing paper lists"
+        name: 'Javascript Cheat Sheet',
+        url: 'https://jayfiled.github.io/JScheat/',
+        source: 'https://github.com/jayfiled/JScheat',
+        picPath: 'JSCheatSheet',
+        impactStatement: "Created as a place to quickly check and consolidate JS learnings"
     },
     {
-        id: 10,
+        id: 9,
         lang: [
             '#HTML',
             '#CSS Flexbox'

@@ -8,7 +8,7 @@ const SearchBox = ({ searchChange, killLinkOnSearch }) => {
             <input 
                 id="search-bar"
                 type="search" 
-                placeholder="Start typing a language, eg. &quot;gatsbyJS&quot;"
+                placeholder="Start typing to filter by tech, eg. &quot;AI&quot;"
                 onChange={searchChange} 
                 onMouseOver={killLinkOnSearch} 
             />
