@@ -36,9 +36,6 @@ class Hello extends Component {
 
         this.handlePortCardBeingHovered = this.handlePortCardBeingHovered.bind(this);
         this.togglePortCardBeingHovered = this.togglePortCardBeingHovered.bind(this);
-
-        // this.handleMouseOver = this.handleMouseOver.bind(this);
-        // this.killLinkOnSearch = this.killLinkOnSearch.bind(this);
       }
 
     toggleMenu = () => {
@@ -88,14 +85,27 @@ class Hello extends Component {
         
     }
 
+    RemovePageBackHandler = () => {
+        console.log('Mouse moved in');
+    
+            document.getElementById('portfolio-page').removeEventListener('onMouseDown', this.handleMouseDownNav);
+            console.log('There should be no event handler: ', document.getElementById('portfolio-page'));
+    
+        }
+
     handleMouseDownNav(e) {
-        const gitHub = document.querySelector('.fa');
+        console.log("Nav event handler executed!")
+        const tL = document.querySelector('.tut-lang');
+        const cTi = document.querySelector('.card-title');
+        const cR = document.querySelector('.card-ref');
+        const cB = document.querySelector('.card-bottom');
         const search = document.querySelector('input');
-        const image = document.querySelector('img');
-        const links = document.querySelector('a');
-        console.log(search, gitHub, image, links)
-        console.log(e.target)
-        if (e.target !== search)
+        if (e.target !== search &&
+            e.target !== tL.firstChild &&
+            e.target !== cTi &&
+            e.target !== cR.children[0] &&
+            e.target !== cR.children[1].firstChild &&
+            e.target !== cB.firstChild.firstChild)
          {
         this.togglePort();
         e.stopPropagation();
@@ -126,31 +136,6 @@ console.log(e.charCode  );
         this.togglePortCardBeingHovered();
         e.stopPropagation();
     }
-
-    /* 
-    testing to see whether there are issues using arrow functions and binding
-    DON't use a variety of binding the 'this' object and using arrow functions to reference
-    the current function scope
-    */
-
-   /* handleMouseDownAbout = (e) => {
-        console.log(this.state.aboutVisible);
-        this.setState({
-            aboutVisible: !this.state.aboutVisible,
-            navVisible: true
-        })
-        console.log(this.state.aboutVisible);
-
-    }
-
-    handleMouseDownContact = (e) => {
-        console.log('clicked');
-        this.setState({
-            contactVisible: !this.state.contactVisible,
-            navVisible: true
-        })
-    }
-*/
     
 handleMouseOver(e) {
         this.setState({
@@ -173,22 +158,6 @@ handleMouseOver(e) {
         this.setState({ searchField: e.target.value })
     }
 
-    //  a function that removes the onMouseDown={eventOnDesktop} from the #portfolio-page div
-
-    // except it doesn't.... need to fix
-    RemovePageBackHandler = () => {
-    // console.log('Mouse moved in');
-
-    //     document.getElementById('portfolio-page').removeEventListener('onMouseDown', this.handleMouseDownNav)
-    //     console.log('There should be no event handler: ', document.getElementById('portfolio-page'));
-
-    }
-
-    AddPageBackHandler = () => {
-        // console.log('Mouse moved out');
-        // document.getElementById('portfolio-page').addEventListener('onMouseDown', this.handleMouseDownNav)
-        // console.log('There should now be an event handler: ', document.getElementById('portfolio-page'));
-    }
         
 render() {
 

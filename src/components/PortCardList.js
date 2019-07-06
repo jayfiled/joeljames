@@ -14,7 +14,7 @@ const PortCardList = ({cardData, RemovePageBackHandler, AddPageBackHandler}) => 
     source={element.source} 
     picPath={element.picPath} 
     impactStatement={element.impactStatement} 
-    RemovePageBackHandler={RemovePageBackHandler} 
+    // RemovePageBackHandler={RemovePageBackHandler} 
     AddPageBackHandler={AddPageBackHandler}  
     />
     

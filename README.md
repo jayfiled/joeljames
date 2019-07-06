@@ -78,4 +78,4 @@
     - [x] **Need some fixed menus on About and contact for navigation**
     - [ ] **Navigation is a little jerky on about and contact**
     - [ ] **Fixed menus would be good...**
-    - [ ] **The cards on desktop can't be clicked to navigate to the pages..** <sup>Important</sup>
+    - [x] **The cards on desktop can't be clicked to navigate to the pages..**
