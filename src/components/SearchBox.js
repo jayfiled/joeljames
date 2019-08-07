@@ -3,7 +3,7 @@ import '../css/SearchBox.css';
 
 const SearchBox = ({ searchChange, killLinkOnSearch }) => {
     return (
-        <label for="search-bar" className="search-wrap">
+        <label htmlFor="search-bar" className="search-wrap">
         {/* Make new branch and add an explicit label here */}
             <input 
                 id="search-bar"
