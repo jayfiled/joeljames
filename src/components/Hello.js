@@ -7,6 +7,7 @@ import Portfolio from './Portfolio';
 import About from './About';
 import Contact from './Contact';
 import cardData from '../data/cardData';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 class Hello extends Component {
     constructor(props, context) {
@@ -159,62 +160,64 @@ render() {
     const filteredCards = cardData.filter(portCard => {
         return portCard.lang.join(' ').toLowerCase().includes(searchField.toLowerCase());
     })
-// console.log(this.handleMouseDown)
+
     return (
+        <Router>
             <div className="main-wrapper">
 
-            <div id="land-header">
-                <h3>Joel James</h3>
-            </div>
+                <div id="land-header">
+                    <h3>Joel James</h3>
+                </div>
 
-            <div id="land-title">
-                <h1>Front End Web Developer</h1>
-            </div>
+                <div id="land-title">
+                    <h1>Front End Web Developer</h1>
+                </div>
+                <Link to="/nav" id="three-lines-act-as-a-Button" className="bring-up-nav">
+                    <Menu handleMouseDown={this.handleMouseDown} 
+                    handleEnter={this.handleEnter} />
+                </Link>
 
-            <Menu handleMouseDown={this.handleMouseDown} 
-            handleEnter={this.handleEnter} />
+                <Route 
+                    path="/nav"
+                    render={() => 
+                    <Nav     
+                    handleMouseDown={this.handleMouseDown}
+                    handleMouseDownNav={this.handleMouseDownNav}
+                    handleMouseDownAbout={this.handleMouseDownAbout} 
+                    handleMouseDownContact={this.handleMouseDownContact}   
+                    menuVisibility={this.state.navVisible}
+                    aboutVisibility={this.state.aboutVisible} 
+                    />
+                    } />
 
-            <Nav handleMouseDown={this.handleMouseDown}
-                handleMouseDownNav={this.handleMouseDownNav} 
+                <p className="location">Melbourne</p>
+
+                <Portfolio 
+                    handleMouseDownNav={this.handleMouseDownNav} 
+                    portVisibility={this.state.portVisible} 
+                    cardData={filteredCards} 
+                    searchChange={this.onSearchChange} 
+                    smallScreen={this.smallScreen} 
+                    screenSize={this.state.screenSize} 
+                    killLinkOnSearch={this.killLinkOnSearch} 
+                    RemovePageBackHandler={this.RemovePageBackHandler} 
+                    AddPageBackHandler={this.AddPageBackHandler} 
+                    />
+
+                <About 
                 handleMouseDownAbout={this.handleMouseDownAbout} 
-                handleMouseDownContact={this.handleMouseDownContact}   
-                menuVisibility={this.state.navVisible} 
                 aboutVisibility={this.state.aboutVisible} 
-                />
-            <p className="location">Melbourne</p>
-
-            <Portfolio 
-                handleMouseDownNav={this.handleMouseDownNav} 
-                portVisibility={this.state.portVisible} 
-                cardData={filteredCards} 
-                searchChange={this.onSearchChange} 
-                smallScreen={this.smallScreen} 
-                screenSize={this.state.screenSize} 
-                killLinkOnSearch={this.killLinkOnSearch} 
-                RemovePageBackHandler={this.RemovePageBackHandler} 
-                AddPageBackHandler={this.AddPageBackHandler} 
+                handleMouseDownContact={this.handleMouseDownContact} 
+                handleMouseDown={this.handleMouseDown}
                 />
 
-            <About 
-            handleMouseDownAbout={this.handleMouseDownAbout} 
-            aboutVisibility={this.state.aboutVisible} 
-            handleMouseDownContact={this.handleMouseDownContact} 
-            handleMouseDown={this.handleMouseDown}
-            />
+                <Contact 
+                handleMouseDownContact={this.handleMouseDownContact} 
+                contactVisibility={this.state.contactVisible} 
+                />
 
-            <Contact 
-            handleMouseDownContact={this.handleMouseDownContact} 
-            contactVisibility={this.state.contactVisible} 
-            />
-
-
-
-            {/* <div id="bring-up-nav">
-                <span id="slide-right"></span>
-                <i className="fa fa-angle-double-right"></i>
-            </div> */}
-
-        </div>   
+            </div>
+    </Router>   
     );
 }
 }

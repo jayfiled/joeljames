@@ -2,6 +2,24 @@
     border: 2px solid grey;
 } */
 
+.three-lines-act-as-a-Button {
+	align-self: flex-end;
+	justify-self: flex-end;
+	max-width: 20%;
+	/* border: 2px solid orange; */
+	cursor: pointer;
+    z-index: 2;
+    background: transparent;
+    border: none;
+
+}
+
+a.bring-up-nav {
+    align-self: flex-end;
+    background: transparent;
+    border: none;
+}
+
 div.main-wrapper {
     /* border: 0px;
     margin: 0;
