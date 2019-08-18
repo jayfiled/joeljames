@@ -94,18 +94,27 @@ class Hello extends Component {
         }
 
     handleMouseDownNav(e) {
-        console.log("Nav event handler executed!")
-        const tL = document.querySelector('.tut-lang');
-        const cTi = document.querySelector('.card-title');
-        const cR = document.querySelector('.card-ref');
-        const cB = document.querySelector('.card-bottom');
-        const search = document.querySelector('input');
-        if (e.target !== search &&
-            e.target !== tL.firstChild &&
-            e.target !== cTi &&
-            e.target !== cR.children[0] &&
-            e.target !== cR.children[1].firstChild &&
-            e.target !== cB.firstChild.firstChild)
+        // console.log("Nav event handler executed!")
+        // const tL = document.querySelector('.tut-lang');
+        // const cTi = document.querySelector('.card-title');
+        // const cR = document.querySelector('.card-ref');
+        // const cB = document.querySelector('.card-bottom');
+        // const search = document.querySelector('input');
+        // if (e.target !== search &&
+        //     e.target !== tL.firstChild &&
+        //     e.target !== cTi &&
+        //     e.target !== cR.children[0] &&
+        //     e.target !== cR.children[1].firstChild &&
+        //     e.target !== cB.firstChild.firstChild)
+        //  {
+        // this.togglePort();
+        let show = document.getElementById('portfolio-page');
+        let portfolioHeader = document.getElementsByTagName('h1')[1];
+        let portClose = document.getElementById('portClose');
+        if (e.target === show ||
+            e.target === portfolioHeader ||
+            e.target === portClose
+            )
          {
         this.togglePort();
         e.stopPropagation();
