@@ -94,10 +94,13 @@ class Hello extends Component {
         }
 
     handleMouseDownNav(e) {
+
         let show = document.getElementById('portfolio-page');
         let portfolioHeader = document.getElementsByTagName('h1')[1];
+        let portClose = document.getElementById('portClose');
         if (e.target === show ||
-            e.target === portfolioHeader
+            e.target === portfolioHeader ||
+            e.target === portClose
             )
          {
         this.togglePort();

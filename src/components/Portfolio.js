@@ -25,7 +25,8 @@ class Portfolio extends Component {
             onMouseDown={eventOnDesktop}>
                     <div className="back-and-search">
                         <div
-                        style={{cursor: "pointer"}} 
+                        style={{cursor: "pointer"}}
+                        id="portClose" 
                         className="close" 
                         onMouseDown={this.props.handleMouseDownNav}>
                         </div>
