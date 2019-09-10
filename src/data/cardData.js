@@ -11,7 +11,7 @@ const cardData = [
             '#AJAX'
 
         ],
-        name: "Facial recognition app - click sign in to see WIP" ,
+        name: "Facial recognition app" ,
         url: 'https://facial-recog.netlify.com/',
         source: 'https://github.com/jayfiled/smartBrain',
         picPath: 'facialRecognition',
