@@ -1,4 +1,4 @@
-## About Joel James - portfolio, about contact.. blog?
+## 📂 About Joel James - portfolio, about contact.. blog?
 
 ### Project To-do
 - [x] [**Build landing page**](https://joel-james.netlify.com/)
